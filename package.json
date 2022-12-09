@@ -3,6 +3,9 @@
     "displayName": "TypeDark",
     "description": "",
     "version": "0.1.1",
+    "repository": {
+        "url": "https://github.com/BonnyAD9/TypeDark"
+    },
     "author": {
         "name": "BonnyAD9",
         "url": "https://github.com/BonnyAD9",
