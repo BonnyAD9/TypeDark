@@ -144,12 +144,23 @@
 			}
 		},
 		{
+			"name": "Language Constants",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#4c8dff",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Primitives",
 			"scope": [
 				"storage.type",
 				"storage.modifier",
 				"keyword.other",
-				"keyword.type"
+				"keyword.type",
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#4c8dff"
@@ -168,7 +179,8 @@
 			"name": "Parameter",
 			"scope": [
 				"variable.parameter",
-				"variable.other.makefile"
+				"variable.other.makefile",
+				"meta.property-name.css"
 			],
 			"settings": {
 				"foreground": "#ffa632",
@@ -191,6 +203,8 @@
 				"keyword.operator",
 				"storage.modifier.pointer.cpp",
 				"source.makefile punctuation",
+				"storage.type.function.arrow.js",
+				"punctuation.separator.key-value.html"
 			],
 			"settings": {
 				"foreground": "#e5dba0"
@@ -233,7 +247,10 @@
 			"name": "String literal",
 			"scope": [
 				"string.quoted.double",
-				"meta.interpolation variable.other.readwrite"
+				"meta.interpolation variable.other.readwrite",
+				"string.template.js",
+				"string.quoted.single.js",
+				"meta.preprocessor.string.cs"
 			],
 			"settings": {
 				"foreground": "#e5a55b"
@@ -243,7 +260,8 @@
 			"name": "String placeholder",
 			"scope": [
 				"constant.other.placeholder",
-				"punctuation.definition.interpolation"
+				"punctuation.definition.interpolation",
+				"punctuation.definition.template-expression"
 			],
 			"settings": {
 				"foreground": "#e0e55b",
@@ -352,7 +370,7 @@
 				"entity.name.type.enum"
 			],
 			"settings": {
-				"foreground": "#2ecc28"
+				"foreground": "#71ce6d"
 			}
 		},
 		{
@@ -367,7 +385,8 @@
 		{
 			"name": "Interpolation",
 			"scope": [
-				"meta.interpolation"
+				"meta.interpolation",
+				"meta.template.expression.js"
 			],
 			"settings": {
 				"foreground": "#eeeeee",
@@ -501,7 +520,9 @@
 		{
 			"name": "Json property",
 			"scope": [
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"entity.other.attribute-name",
+				"meta.object-literal.key.js string.quoted.double.js"
 			],
 			"settings": {
 				"foreground": "#28c3cc",
@@ -512,10 +533,21 @@
 			"name": "Macro",
 			"scope": [
 				"entity.name.function.macro.rust",
-				"variable.language.makefile"
+				"variable.language.makefile",
+				"source.css support.constant",
+				"entity.name.variable.preprocessor.symbol.cs"
 			],
 			"settings": {
 				"foreground": "#e2ccff",
+			}
+		},
+		{
+			"name": "Static/Constant",
+			"scope": [
+				"variable.other.constant.js",
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -531,6 +563,10 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"variable.global": "#ccdeff",
+		"variable.static":
+		{
+			"fontStyle": "bold"
+		},
 		"type:c": "#28c3cc",
 		"type:cpp": "#28c3cc",
 		"macro": "#e2ccff",
@@ -542,5 +578,6 @@
 		"class.abstract": {
 			"fontStyle": "italic"
 		},
+		"plainKeyword": "#4c8dff"
 	}
 }
