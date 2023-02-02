@@ -144,16 +144,6 @@
 			}
 		},
 		{
-			"name": "Language Constants",
-			"scope": [
-				"constant.language"
-			],
-			"settings": {
-				"foreground": "#4c8dff",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Primitives",
 			"scope": [
 				"storage.type",
@@ -236,7 +226,8 @@
 			"scope": [
 				"keyword.control",
 				"source.makefile support.function",
-				"keyword.operator.conjunction"
+				"keyword.operator.conjunction",
+				"support.type.property-name.table.toml"
 			],
 			"settings": {
 				"foreground": "#4c8dff",
@@ -250,7 +241,8 @@
 				"meta.interpolation variable.other.readwrite",
 				"string.template.js",
 				"string.quoted.single.js",
-				"meta.preprocessor.string.cs"
+				"meta.preprocessor.string.cs",
+				"source.toml string.quoted.single"
 			],
 			"settings": {
 				"foreground": "#e5a55b"
@@ -321,7 +313,8 @@
 		{
 			"name": "Number",
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"constant.language"
 			],
 			"settings": {
 				"foreground": "#d072e5"
@@ -522,7 +515,8 @@
 			"scope": [
 				"support.type.property-name.json",
 				"entity.other.attribute-name",
-				"meta.object-literal.key.js string.quoted.double.js"
+				"meta.object-literal.key.js string.quoted.double.js",
+				"support.type.property-name.toml"
 			],
 			"settings": {
 				"foreground": "#28c3cc",
@@ -553,7 +547,8 @@
 		{
 			"name": "numeric type",
 			"scope": [
-				"entity.name.type.numeric"
+				"entity.name.type.numeric",
+				"entity.name.type.primitive.rust"
 			],
 			"settings": {
 				"foreground": "#ed478f",
@@ -571,13 +566,20 @@
 		"type:cpp": "#28c3cc",
 		"macro": "#e2ccff",
 		"enumMember:c": "#ccc88e",
-		"enumMember:rust": "#eeeedd",
 		"class.static": {
 			"fontStyle": "bold"
 		},
 		"class.abstract": {
 			"fontStyle": "italic"
 		},
-		"plainKeyword": "#4c8dff"
+		"plainKeyword": "#4c8dff",
+		"typeAlias": {
+			"foreground": "#28cc92",
+			"fontStyle": "bold"
+		},
+		"typeParameter": {
+			"foreground": "#28cc92",
+			"fontStyle": "bold"
+		}
 	}
 }
