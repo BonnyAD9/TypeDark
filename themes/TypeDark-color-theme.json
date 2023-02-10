@@ -553,6 +553,16 @@
 			"settings": {
 				"foreground": "#ed478f",
 			}
+		},
+		{
+			"name": "rust attribute",
+			"scope": [
+				"meta.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#b4b4b4",
+				"fontStyle": "bold"
+			}
 		}
 	],
 	"semanticHighlighting": true,
