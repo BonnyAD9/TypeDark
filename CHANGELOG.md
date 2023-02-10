@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.3
+- rust attribute highlighting
+
 ## v0.1.2
 - improved rust support
 - toml support
