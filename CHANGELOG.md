@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.4
+- better asm support
+
 ## v0.1.3
 - rust attribute highlighting
 
