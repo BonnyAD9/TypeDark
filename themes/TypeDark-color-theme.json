@@ -150,7 +150,8 @@
 				"storage.modifier",
 				"keyword.other",
 				"keyword.type",
-				"entity.name.tag"
+				"entity.name.tag",
+				"keyword.mnemonic"
 			],
 			"settings": {
 				"foreground": "#4c8dff"
@@ -379,7 +380,8 @@
 			"name": "Interpolation",
 			"scope": [
 				"meta.interpolation",
-				"meta.template.expression.js"
+				"meta.template.expression.js",
+				"variable.parameter.label.asm"
 			],
 			"settings": {
 				"foreground": "#eeeeee",
@@ -495,7 +497,8 @@
 			"name": "Link / image description",
 			"scope": [
 				"string.other.link.title",
-				"string.other.link.description"
+				"string.other.link.description",
+				"support.type.register"
 			],
 			"settings": {
 				"foreground": "#e5ce5b"
