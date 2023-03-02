@@ -171,7 +171,8 @@
             "scope": [
                 "variable.parameter",
                 "variable.other.makefile",
-                "meta.property-name.css"
+                "meta.property-name.css",
+                "variable.other.positional"
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -532,7 +533,8 @@
                 "entity.name.function.macro.rust",
                 "variable.language.makefile",
                 "source.css support.constant",
-                "entity.name.variable.preprocessor.symbol.cs"
+                "entity.name.variable.preprocessor.symbol.cs",
+                "variable.other"
             ],
             "settings": {
                 "foreground": "#e2ccff",
