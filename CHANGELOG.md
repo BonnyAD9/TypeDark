@@ -1,5 +1,11 @@
 # Change Log
 
+## v0.1.6
+- fix issue where variables had the same color as macros
+
+## v0.1.5
+- better shell support
+
 ## v0.1.4
 - better asm support
 

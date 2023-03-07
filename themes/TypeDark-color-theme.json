@@ -534,7 +534,7 @@
                 "variable.language.makefile",
                 "source.css support.constant",
                 "entity.name.variable.preprocessor.symbol.cs",
-                "variable.other"
+                "source.shell variable.other"
             ],
             "settings": {
                 "foreground": "#e2ccff",
