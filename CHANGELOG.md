@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.7
+- better latex support
+
 ## v0.1.6
 - fix issue where variables had the same color as macros
 
