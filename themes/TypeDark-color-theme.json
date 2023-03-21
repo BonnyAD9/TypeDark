@@ -343,7 +343,9 @@
         {
             "name": "Class",
             "scope": [
-                "entity.name.type.class"
+                "entity.name.type.class",
+                "support.class",
+                "support.class punctuation.definition.string"
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -371,7 +373,8 @@
         {
             "name": "Interface",
             "scope": [
-                "entity.name.type.interface"
+                "entity.name.type.interface",
+                "text.tex.latex constant.other"
             ],
             "settings": {
                 "foreground": "#b0cc28"
@@ -382,7 +385,8 @@
             "scope": [
                 "meta.interpolation",
                 "meta.template.expression.js",
-                "variable.parameter.label.asm"
+                "variable.parameter.label.asm",
+                "support.class.math.block"
             ],
             "settings": {
                 "foreground": "#eeeeee",
@@ -534,7 +538,8 @@
                 "variable.language.makefile",
                 "source.css support.constant",
                 "entity.name.variable.preprocessor.symbol.cs",
-                "source.shell variable.other"
+                "source.shell variable.other",
+                "text.tex.latex support.function"
             ],
             "settings": {
                 "foreground": "#e2ccff",
