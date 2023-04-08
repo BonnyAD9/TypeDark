@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.8
+- better VHDL support
+
 ## v0.1.7
 - better latex support
 
