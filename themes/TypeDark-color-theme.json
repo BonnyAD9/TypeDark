@@ -137,7 +137,8 @@
             "name":    "Library",
             "scope": [
                 "meta.preprocessor string",
-                "entity.name.namespace"
+                "entity.name.namespace",
+                "entity.name.section.vhdl"
             ],
             "settings": {
                 "foreground": "#19b6ff"
@@ -151,7 +152,8 @@
                 "keyword.other",
                 "keyword.type",
                 "entity.name.tag",
-                "keyword.mnemonic"
+                "keyword.mnemonic",
+                "keyword"
             ],
             "settings": {
                 "foreground": "#4c8dff"
@@ -160,7 +162,8 @@
         {
             "name": "Function",
             "scope": [
-                "entity.name.function"
+                "entity.name.function",
+                "support.function"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -345,7 +348,8 @@
             "scope": [
                 "entity.name.type.class",
                 "support.class",
-                "support.class punctuation.definition.string"
+                "support.class punctuation.definition.string",
+                "entity.name.type.vhdl"
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -374,7 +378,8 @@
             "name": "Interface",
             "scope": [
                 "entity.name.type.interface",
-                "text.tex.latex constant.other"
+                "text.tex.latex constant.other",
+                "entity.other.inherited-class.vhdl"
             ],
             "settings": {
                 "foreground": "#b0cc28"
