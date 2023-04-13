@@ -2,7 +2,7 @@
     "name": "typedark",
     "displayName": "TypeDark",
     "description": "",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "repository": {
         "url": "https://github.com/BonnyAD9/TypeDark"
     },
@@ -17,6 +17,10 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme", "dark theme", "dark", "yellow", "contrast", "accent",
+        "semantic"
     ],
     "contributes": {
         "themes": [

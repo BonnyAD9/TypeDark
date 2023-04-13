@@ -29,7 +29,6 @@
         "progressBar.background":"#dddd00",
         "list.activeSelectionBackground":"#ffff0010",
         "list.hoverBackground":"#ffff0005",
-        "list.inactiveSelectionBackground":"#ffff0010",
         "listFilterWidget.background":"#ffff0055",
         "listFilterWidget.outline":"#dddd00",
         "listFilterWidget.noMatchesOutline":"#dd7700",
@@ -71,6 +70,7 @@
         "editor.hoverHighlightBackground":"#555500",
         "editor.lineHighlightBackground":"#1c1c1c",
         "editor.lineHighlightBorder":"#333333",
+        "editor.wordHighlightStrongBackground": "#ffff0030",
         "editorWhitespace.foreground": "#555555",
         "editorIndentGuide.activeBackground":"#dddd00",
         "editorBracketHighlight.foreground1":"#cccc8e",
@@ -92,6 +92,8 @@
         "peekViewEditor.matchHighlightBorder":"#dddd0055",
         "peekViewResult.background":"#181818",
         "peekViewTitle.background":"#222222",
+        "peekViewResult.matchHighlightBackground": "#ffff0000",
+        "peekViewResult.selectionBackground": "#ffff0010",
         "panel.background":"#181818",
         "panel.border":"#555555",
         "panel.dropBorder":"#dddd00",
@@ -121,6 +123,8 @@
         "keybindingLabel.border":"#555555",
         "keybindingLabel.bottomBorder":"#555555",
         "settings.modifiedItemIndicator":"#dddd00",
+        "inputOption.activeBorder": "#dddd00",
+        "textLink.foreground": "#dddd00"
     },
     "tokenColors": [
         {

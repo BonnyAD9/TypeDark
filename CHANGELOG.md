@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.9
+- fix some incorrect colors in editor
+
 ## v0.1.8
 - better VHDL support
 
