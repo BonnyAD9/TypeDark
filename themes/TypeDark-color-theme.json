@@ -151,10 +151,6 @@
         {
             "name": "Primitives",
             "scope": [
-                "storage.type",
-                "storage.modifier",
-                "keyword.other",
-                "keyword.type",
                 "entity.name.tag",
                 "keyword.mnemonic",
                 "keyword"
@@ -251,7 +247,8 @@
                 "string.template.js",
                 "string.quoted.single.js",
                 "meta.preprocessor.string.cs",
-                "source.toml string.quoted.single"
+                "source.toml string.quoted.single",
+                "string.template.ts"
             ],
             "settings": {
                 "foreground": "#e5a55b"
@@ -567,7 +564,13 @@
             "name": "numeric type",
             "scope": [
                 "entity.name.type.numeric",
-                "entity.name.type.primitive.rust"
+                "entity.name.type.primitive.rust",
+                "storage.type",
+                "storage.type.built-in",
+                "storage.modifier",
+                "keyword.other",
+                "keyword.type",
+                "support.type.primitive",
             ],
             "settings": {
                 "foreground": "#ed478f",

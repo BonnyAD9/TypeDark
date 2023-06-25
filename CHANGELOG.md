@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.1.10
+- consistant primitive types
+- better js/ts support
+
 ## v0.1.9
 - fix some incorrect colors in editor
 
