@@ -1,5 +1,19 @@
 # Change Log
 
+## v0.2.0
+- Update deprecated fields
+- Fix status bar color for no folder
+- Macro parameters now have same color as other parameters
+- Proper macro colors in C
+- Better doc comments in rust
+- Better generic comment support
+- Better generic string literal support
+- Better generic literals
+- Fixed css color literals
+- Macro variable types now have the type color
+- Better type coloring in rust macros
+- Properly highlight css variables
+
 ## v0.1.10
 - consistant primitive types
 - better js/ts support

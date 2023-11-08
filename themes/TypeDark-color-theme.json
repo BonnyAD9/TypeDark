@@ -72,7 +72,7 @@
         "editor.lineHighlightBorder":"#333333",
         "editor.wordHighlightStrongBackground": "#ffff0030",
         "editorWhitespace.foreground": "#555555",
-        "editorIndentGuide.activeBackground":"#dddd00",
+        "editorIndentGuide.activeBackground1":"#dddd00",
         "editorBracketHighlight.foreground1":"#cccc8e",
         "editorBracketHighlight.foreground2":"#8ecccc",
         "editorBracketHighlight.foreground3":"#cc8ecc",
@@ -102,6 +102,8 @@
         "panelTitle.inactiveForeground":"#555555",
         "statusBar.background":"#dddd00",
         "statusBar.foreground":"#101010",
+        "statusBar.noFolderBackground": "#883388",
+        "statusBar.noFolderForeground": "#eee",
         "titleBar.activeBackground":"#181818",
         "titleBar.activeForeground":"#eeeeee",
         "titleBar.inactiveBackground":"#222222",
@@ -128,17 +130,7 @@
     },
     "tokenColors": [
         {
-            "name": "Preprocessor",
-            "scope": [
-                "meta.preprocessor",
-            ],
-            "settings": {
-                "foreground": "#19b6ff",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name":    "Library",
+            "name": "Library",
             "scope": [
                 "meta.preprocessor string",
                 "entity.name.namespace",
@@ -149,11 +141,15 @@
             }
         },
         {
-            "name": "Primitives",
+            "name": "Keywords",
             "scope": [
                 "entity.name.tag",
                 "keyword.mnemonic",
-                "keyword"
+                "keyword",
+                "storage.modifier",
+                "storage.type.struct.cpp",
+                "keyword.other",
+                "storage.type"
             ],
             "settings": {
                 "foreground": "#4c8dff"
@@ -175,7 +171,8 @@
                 "variable.parameter",
                 "variable.other.makefile",
                 "meta.property-name.css",
-                "variable.other.positional"
+                "variable.other.positional",
+                "variable.other.metavariable.name"
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -183,9 +180,9 @@
             }
         },
         {
-            "name": "Punctuation",
+            "name": "Copula",
             "scope": [
-                "punctuation.definition.directive",
+                //"punctuation.definition.directive",
                 "copula"
             ],
             "settings": {
@@ -219,7 +216,8 @@
         {
             "name": "Line comment",
             "scope": [
-                "comment.line"
+                "comment.line",
+                "comment"
             ],
             "settings": {
                 "foreground": "#666666",
@@ -248,7 +246,8 @@
                 "string.quoted.single.js",
                 "meta.preprocessor.string.cs",
                 "source.toml string.quoted.single",
-                "string.template.ts"
+                "string.template.ts",
+                "constant.string"
             ],
             "settings": {
                 "foreground": "#e5a55b"
@@ -288,7 +287,7 @@
             }
         },
         {
-            "name": "String scape characters",
+            "name": "String escape characters",
             "scope": [
                 "string.quoted.double constant.character.escape"
             ],
@@ -320,7 +319,8 @@
             "name": "Number",
             "scope": [
                 "constant.numeric",
-                "constant.language"
+                "constant.language",
+                "constant.other.color"
             ],
             "settings": {
                 "foreground": "#d072e5"
@@ -329,7 +329,8 @@
         {
             "name": "Keyword unit",
             "scope": [
-                "keyword.other.unit"
+                "keyword.other.unit",
+                "constant.other.color punctuation.definition.constant.css"
             ],
             "settings": {
                 "foreground": "#c32de5"
@@ -345,12 +346,13 @@
             }
         },
         {
-            "name": "Class",
+            "name": "Class/Type",
             "scope": [
                 "entity.name.type.class",
                 "support.class",
                 "support.class punctuation.definition.string",
-                "entity.name.type.vhdl"
+                "entity.name.type.vhdl",
+                "variable.other.metavariable.specifier"
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -360,7 +362,8 @@
             "name": "Struct",
             "scope": [
                 "entity.name.type.struct",
-                "keyword.operator.adverb"
+                "keyword.operator.adverb",
+                "entity.name.type.rust"
             ],
             "settings": {
                 "foreground": "#28cc92"
@@ -545,7 +548,8 @@
                 "source.css support.constant",
                 "entity.name.variable.preprocessor.symbol.cs",
                 "source.shell variable.other",
-                "text.tex.latex support.function"
+                "text.tex.latex support.function",
+                "entity.name.function.preprocessor"
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -555,6 +559,7 @@
             "name": "Static/Constant",
             "scope": [
                 "variable.other.constant.js",
+                "source.css variable"
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -565,10 +570,7 @@
             "scope": [
                 "entity.name.type.numeric",
                 "entity.name.type.primitive.rust",
-                "storage.type",
                 "storage.type.built-in",
-                "storage.modifier",
-                "keyword.other",
                 "keyword.type",
                 "support.type.primitive",
             ],
@@ -584,6 +586,25 @@
             "settings": {
                 "foreground": "#b4b4b4",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Lesser Foreground",
+            "scope": [
+                "comment.line.documentation.rust",
+                "meta.preprocessor.macro"
+            ],
+            "settings": {
+                "foreground": "#ccc"
+            }
+        },
+        {
+            "name": "Global Variable",
+            "scope": [
+                "source.css variable"
+            ],
+            "settings": {
+                "foreground": "#ccdeff",
             }
         }
     ],
