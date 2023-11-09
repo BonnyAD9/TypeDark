@@ -2,7 +2,7 @@
 TypeDark theme for visual studio code with yellow accent and semantic syntax highlighting.
 
 ## How it looks
-![image](https://user-images.githubusercontent.com/46282097/206718717-1f0b826d-b181-4d78-b607-174a9d2560c2.png)
+![image](https://github.com/BonnyAD9/TypeDark/assets/46282097/393b1b1f-5876-4526-a97b-8a8248f65396)
 
 ## How to get it
 It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
