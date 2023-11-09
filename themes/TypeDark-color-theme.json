@@ -172,7 +172,8 @@
                 "variable.other.makefile",
                 "meta.property-name.css",
                 "variable.other.positional",
-                "variable.other.metavariable.name"
+                "variable.other.metavariable.name",
+                "entity.name.function.io.brainfuck"
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -352,7 +353,9 @@
                 "support.class",
                 "support.class punctuation.definition.string",
                 "entity.name.type.vhdl",
-                "variable.other.metavariable.specifier"
+                "variable.other.metavariable.specifier",
+                "source.vhdl support.type",
+                "entity.name.type.type.vhdl"
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -363,7 +366,8 @@
             "scope": [
                 "entity.name.type.struct",
                 "keyword.operator.adverb",
-                "entity.name.type.rust"
+                "entity.name.type.rust",
+                "entity.name.type.architecture"
             ],
             "settings": {
                 "foreground": "#28cc92"
@@ -383,7 +387,8 @@
             "scope": [
                 "entity.name.type.interface",
                 "text.tex.latex constant.other",
-                "entity.other.inherited-class.vhdl"
+                "entity.other.inherited-class.vhdl",
+                "source.vhdl entity.name.type.entity"
             ],
             "settings": {
                 "foreground": "#b0cc28"

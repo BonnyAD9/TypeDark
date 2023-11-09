@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.2.1
+- Better vhdl support
+- Better brainfuck support
+
 ## v0.2.0
 - Update deprecated fields
 - Fix status bar color for no folder
