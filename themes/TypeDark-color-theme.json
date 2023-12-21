@@ -622,7 +622,7 @@
                 "variable.other.object.property"
             ],
             "settings": {
-                "foreground": "#ffe6c5",
+                "foreground": "#e4ffe7",
             }
         }
     ],
@@ -654,10 +654,10 @@
         },
         // "property": "#b8eede",
         // "method": "#b8eede",
-        "property": "#ffe6c5",
-        "method": "#ffe6c5",
+        "property": "#e4ffe7",
+        "method": "#e4ffe7",
         "method.static": {
-            "foreground": "#ffe6c5",
+            "foreground": "#e4ffe7",
             "fontStyle": "bold italic"
         }
     }
