@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.2.2
+- better cmake support
+- properties and methods now have different color
+- `this` is highligted in C++
+
 ## v0.2.1
 - Better vhdl support
 - Better brainfuck support

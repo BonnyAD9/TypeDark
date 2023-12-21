@@ -231,7 +231,8 @@
                 "keyword.control",
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
-                "support.type.property-name.table.toml"
+                "support.type.property-name.table.toml",
+                "variable.language.this.cpp"
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -248,7 +249,8 @@
                 "meta.preprocessor.string.cs",
                 "source.toml string.quoted.single",
                 "string.template.ts",
-                "constant.string"
+                "constant.string",
+                "string.source.cmake"
             ],
             "settings": {
                 "foreground": "#e5a55b"
@@ -554,7 +556,8 @@
                 "entity.name.variable.preprocessor.symbol.cs",
                 "source.shell variable.other",
                 "text.tex.latex support.function",
-                "entity.name.function.preprocessor"
+                "entity.name.function.preprocessor",
+                "storage.source.cmake"
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -611,6 +614,16 @@
             "settings": {
                 "foreground": "#ccdeff",
             }
+        },
+        {
+            "name": "Property",
+            "scope": [
+                "variable.other.property",
+                "variable.other.object.property"
+            ],
+            "settings": {
+                "foreground": "#ffe6c5",
+            }
         }
     ],
     "semanticHighlighting": true,
@@ -638,6 +651,14 @@
         "typeParameter": {
             "foreground": "#28cc92",
             "fontStyle": "bold"
+        },
+        // "property": "#b8eede",
+        // "method": "#b8eede",
+        "property": "#ffe6c5",
+        "method": "#ffe6c5",
+        "method.static": {
+            "foreground": "#ffe6c5",
+            "fontStyle": "bold italic"
         }
     }
 }
