@@ -1,7 +1,7 @@
 {
     "name": "typedark",
     "displayName": "TypeDark",
-    "description": "",
+    "description": "Dark theme with useful semantic highlighting.",
     "version": "0.2.3",
     "repository": {
         "url": "https://github.com/BonnyAD9/TypeDark"
@@ -25,9 +25,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "TypeDark",
+                "label": "TypeDark Yellow (default)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/TypeDark-color-theme.json"
+                "path": "./themes/TypeDark-yellow-color-theme.json"
             }
         ]
     }
