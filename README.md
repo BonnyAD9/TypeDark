@@ -14,7 +14,7 @@ The yellow version (My favourite)
 
 ## How is semantic highlighting useful
 This theme uses semantic syntax highlighting to give more information to the
-programmer. With this theme you can for example esily differentiate netween
+programmer. With this theme you can for example easily differentiate between
 local variables, properties, constants, global variables, parameters and macros
 just by looking at the color and font style of the token.
 
@@ -23,25 +23,28 @@ is made to have all these useful features but at the same time to look well and
 with pleasant colors.
 
 ### Basic guide
-- Functions are in *<span style="font-family: monospace">italic</style>* that also applies to overloaded operators
-- Constants are **<span style="font-family: monospace">bold</style>**
-- Namespaces are <span style="color: #19b6ff; font-family: monospace">light blue</span>
-- Keywords are <span style="color: #4c8dff; font-family: monospace">blue</span>
-- Function parameters are *<span style="color: #ffa632; font-family: monospace">orange and italic</span>*
-- Operators are <span style="color: #e5dba0; font-family: monospace">light yellow</span>
-- Comments are *<span style="color: #7f7f7f; font-family: monospace">gray and italic</span>*
-- String literals are <span style="color: #e5a55b; font-family: monospace">brown with yellow placeholders (*<span style="color: #e0e55b">%s</span>*) and orange escapes (*<span style="color: #ff8800">\n</span>*)</span>
-- Char literals are <span style="color: #e5ce5b; font-family: monospace">yellow with orangish escapes (<span style="color: #ffd400">\n</span>)</span>
-- Language constants (such as numbers, true/false, null) are <span style="color: #d072e5; font-family: monospace">magenta</span>
-- Enum members are <span style="color: #ccc88e; font-family: monospace">yellow</span>
-- Classes are <span style="color: #28c3cc; font-family: monospace">cyan</span>
-- Structs are <span style="color: #28cc92; font-family: monospace">green</span>
-- Enums are <span style="color: #71ce6d; font-family: monospace">light green</span>
-- Iterfaces are <span style="color: #b0cc28; font-family: monospace">yellowish green</span>
-- Macros are <span style="color: #e2ccff; font-family: monospace">pink</span>
-- Builtin types are <span style="color: #ed478f; font-family: monospace">red</span>
-- Global variables are <span style="color: #ccdeff; font-family: monospace">slightly blue</span>
-- Properties and methods are <span style="color: #e4ffe7; font-family: monospace">slightly green</span>
+- Funcions and overloaded operators are *italic*
+- Constants are **bold**
+
+| Meaning         | Color                                                    | Hex       |
+|-----------------|----------------------------------------------------------|-----------|
+| Namespace       | ![#19b6ff](https://placehold.co/15x15/19b6ff/19b6ff.png) | `#19b6ff` |
+| Keyword         | ![#4c8dff](https://placehold.co/15x15/4c8dff/4c8dff.png) | `#4c8dff` |
+| Parameter       | ![#ffa632](https://placehold.co/15x15/ffa632/ffa632.png) | `#ffa632` |
+| Operator        | ![#e5dba0](https://placehold.co/15x15/e5dba0/e5dba0.png) | `#e5dba0` |
+| Comment         | ![#7f7f7f](https://placehold.co/15x15/7f7f7f/7f7f7f.png) | `#7f7f7f` |
+| String literal  | ![#e5a55b](https://placehold.co/15x15/e5a55b/e5a55b.png) | `#e5a55b` |
+| Char literal    | ![#e5ce5b](https://placehold.co/15x15/e5ce5b/e5ce5b.png) | `#e5ce5b` |
+| Other literal   | ![#d072e5](https://placehold.co/15x15/d072e5/d072e5.png) | `#d072e5` |
+| Enum member     | ![#ccc88e](https://placehold.co/15x15/ccc88e/ccc88e.png) | `#ccc88e` |
+| Class           | ![#28c3cc](https://placehold.co/15x15/28c3cc/28c3cc.png) | `#28c3cc` |
+| Struct          | ![#28cc92](https://placehold.co/15x15/28cc92/28cc92.png) | `#28cc92` |
+| Enum            | ![#71ce6d](https://placehold.co/15x15/71ce6d/71ce6d.png) | `#71ce6d` |
+| Interface       | ![#b0cc28](https://placehold.co/15x15/b0cc28/b0cc28.png) | `#b0cc28` |
+| Macro           | ![#e2ccff](https://placehold.co/15x15/e2ccff/e2ccff.png) | `#e2ccff` |
+| Builtin type    | ![#ed478f](https://placehold.co/15x15/ed478f/ed478f.png) | `#ed478f` |
+| Global variable | ![#ccdeff](https://placehold.co/15x15/ccdeff/ccdeff.png) | `#ccdeff` |
+| Property/Method | ![#e4ffe7](https://placehold.co/15x15/e4ffe7/e4ffe7.png) | `#e4ffe7` |
 
 ## How to get it
 It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
