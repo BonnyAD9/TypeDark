@@ -3,6 +3,7 @@
     "displayName": "TypeDark",
     "description": "Dark theme with useful semantic highlighting.",
     "version": "1.0.1",
+    "icon": "icon.png",
     "repository": {
         "url": "https://github.com/BonnyAD9/TypeDark"
     },
