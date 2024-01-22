@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.0
+- Add cyan and magenta theme variations
+
 ## v0.2.2
 - better cmake support
 - properties and methods now have different color

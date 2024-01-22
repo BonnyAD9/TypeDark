@@ -2,7 +2,7 @@
     "name": "typedark",
     "displayName": "TypeDark",
     "description": "Dark theme with useful semantic highlighting.",
-    "version": "0.2.3",
+    "version": "1.0.0",
     "repository": {
         "url": "https://github.com/BonnyAD9/TypeDark"
     },
@@ -20,14 +20,24 @@
     ],
     "keywords": [
         "theme", "dark theme", "dark", "yellow", "contrast", "accent",
-        "semantic"
+        "semantic", "cyan", "magenta", "orange", "light theme"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "TypeDark Yellow (default)",
+                "label": "TypeDark Yellow",
                 "uiTheme": "vs-dark",
                 "path": "./themes/TypeDark-yellow-color-theme.json"
+            },
+            {
+                "label": "TypeDark Cyan",
+                "uiTheme": "vs-dark",
+                "path": "./themes/TypeDark-cyan-color-theme.json"
+            },
+            {
+                "label": "TypeDark Magenta",
+                "uiTheme": "vs-dark",
+                "path": "./themes/TypeDark-magenta-color-theme.json"
             }
         ]
     }
