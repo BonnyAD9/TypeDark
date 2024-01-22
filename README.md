@@ -3,6 +3,11 @@
 
 TypeDark theme for visual studio code with yellow accent and semantic syntax highlighting.
 
+Contains several color variants:
+- Yellow
+- Cyan
+- Magenta
+
 ## How it looks
 The yellow version (My favourite)
 ![image](https://github.com/BonnyAD9/TypeDark/assets/46282097/f903a914-df45-4df2-b1bd-3505ecaddb64)
