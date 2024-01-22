@@ -1,4 +1,6 @@
 # TypeDark
+![icon](icon.png)
+
 TypeDark theme for visual studio code with yellow accent and semantic syntax highlighting.
 
 ## How it looks
