@@ -2,6 +2,7 @@
 
 ## v1.0.4
 - Specify terminal colors
+- Fix this coloring
 
 ## v1.0.0
 - Add cyan and magenta theme variations
