@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.4
+- Specify terminal colors
+
 ## v1.0.0
 - Add cyan and magenta theme variations
 

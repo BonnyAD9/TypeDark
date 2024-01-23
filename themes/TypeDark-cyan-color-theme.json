@@ -144,6 +144,23 @@
         "keybindingLabel.foreground":"#eeeeee",
         "keybindingLabel.border":"#555555",
         "keybindingLabel.bottomBorder":"#555555",
+
+        "terminal.ansiBrightWhite": "#fff",
+        "terminal.ansiWhite": "#ccc",
+        "terminal.ansiBrightBlack": "#777",
+        "terminal.ansiBlack": "#000",
+        "terminal.ansiBrightRed": "#f55",
+        "terminal.ansiRed": "#833",
+        "terminal.ansiBrightGreen": "#23d16a",
+        "terminal.ansiGreen": "#383",
+        "terminal.ansiBrightYellow": "#ff5",
+        "terminal.ansiYellow": "#883",
+        "terminal.ansiBrightBlue": "#308eea",
+        "terminal.ansiBlue": "#56e",
+        "terminal.ansiBrightMagenta": "#f7f",
+        "terminal.ansiMagenta": "#848",
+        "terminal.ansiBrightCyan": "#6cc",
+        "terminal.ansiCyan": "#388",
     },
     "tokenColors": [
         {
