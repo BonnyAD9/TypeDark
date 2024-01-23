@@ -266,7 +266,7 @@
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
-                "variable.language.this.cpp"
+                "variable.language.this"
             ],
             "settings": {
                 "foreground": "#4c8dff",
