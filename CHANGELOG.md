@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.0
+- Improve markdown
+
 ## v1.0.4
 - Specify terminal colors
 - Fix this coloring

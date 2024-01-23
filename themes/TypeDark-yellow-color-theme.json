@@ -391,7 +391,7 @@
                 "entity.name.type.vhdl",
                 "variable.other.metavariable.specifier",
                 "source.vhdl support.type",
-                "entity.name.type.type.vhdl"
+                "entity.name.type.type.vhdl",
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -522,7 +522,9 @@
         {
             "name": "Link",
             "scope": [
-                "meta.link.inline markup.underline.link"
+                "meta.link.inline markup.underline.link",
+                "meta.link.reference.markdown constant.other.reference.link.markdown",
+                "markup.underline.link.markdown"
             ],
             "settings": {
                 "foreground": "#447fe5",
@@ -532,7 +534,10 @@
             "name": "Link punctuation",
             "scope": [
                 "punctuation.definition.link.title",
-                "meta.link.inline punctuation.definition.metadata"
+                "meta.link.inline punctuation.definition.metadata",
+                "meta.link.reference.markdown punctuation.definition.constant.end.markdown",
+                "meta.link.reference.markdown punctuation.definition.constant.begin.markdown",
+                "meta.link.reference.def.markdown"
             ],
             "settings": {
                 "foreground": "#28c3cc",
@@ -542,7 +547,8 @@
             "name": "Image punctuation",
             "scope": [
                 "punctuation.definition.link.description",
-                "meta.image.inline punctuation.definition.metadata"
+                "meta.image.inline punctuation.definition.metadata",
+                "meta.image.reference.markdown punctuation.definition.constant.markdown"
             ],
             "settings": {
                 "foreground": "#2ecc28",
@@ -560,9 +566,19 @@
             }
         },
         {
+            "name": "Markdown constant",
+            "scope": [
+                "constant.other.reference.link.markdown",
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Image",
             "scope": [
-                "markup.underline.link.image"
+                "markup.underline.link.image",
+                "meta.image.reference.markdown constant.other.reference.link.markdown"
             ],
             "settings": {
                 "foreground": "#28cc92",
