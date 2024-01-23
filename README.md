@@ -1,8 +1,8 @@
 # TypeDark
-[![marketplace][marketplace-badge]][marketplace]
-[![Downloads][downloads-badge]][releases]
+[![marketplace](https://img.shields.io/visual-studio-marketplace/v/BonnyAD9.typedark)](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/BonnyAD9.typedark)](https://github.com/BonnyAD9/TypeDark/releases)
 
-![icon][icon]
+![icon](images/icon.png)
 
 TypeDark theme for visual studio code with yellow accent and semantic syntax highlighting.
 
@@ -50,19 +50,10 @@ with pleasant colors.
 | Property/Method | ![#e4ffe7](https://placehold.co/15x15/e4ffe7/e4ffe7.png) | `#e4ffe7` |
 
 ## How to get it
-It is available on the [VSCode marketplace][marketplace].
+It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
 
 ## Links
-- **Author:** [BonnyAD9][author]
-- **Marketplace:** [TypeDark][marketplace]
-- **GitHub Repository:** [TypeDark][github-repo]
-- **My website:** [bonnyad9.github.io][my-web]
-
-[icon]: images/icon.png
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark
-[author]: https://github.com/BonnyAD9
-[github-repo]: https://github.com/BonnyAD9/TypeDark
-[my-web]: https://bonnyad9.github.io/
-[marketplace-badge]: https://img.shields.io/visual-studio-marketplace/v/BonnyAD9.typedark
-[downloads-badge]: https://img.shields.io/visual-studio-marketplace/d/BonnyAD9.typedark
-[releases]: https://github.com/BonnyAD9/TypeDark/releases
+- **Author:** [BonnyAD9](https://github.com/BonnyAD9)
+- **Marketplace:** [TypeDark](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark)
+- **GitHub Repository:** [TypeDark](https://github.com/BonnyAD9/TypeDark-repo)
+- **My website:** [bonnyad9.github.io](https://bonnyad9.github.io/)
