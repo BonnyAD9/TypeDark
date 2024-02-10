@@ -266,7 +266,8 @@
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
-                "variable.language.this"
+                "variable.language.this",
+                "variable.parameter.function.language.special.self"
             ],
             "settings": {
                 "foreground": "#4c8dff",
