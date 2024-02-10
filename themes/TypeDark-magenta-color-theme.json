@@ -617,7 +617,8 @@
                 "text.tex.latex support.function",
                 "entity.name.function.preprocessor",
                 "storage.source.cmake",
-                "support.variable.magic.python"
+                "support.variable.magic.python",
+                "support.function.magic.python"
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -649,7 +650,8 @@
         {
             "name": "rust attribute",
             "scope": [
-                "meta.attribute.rust"
+                "meta.attribute.rust",
+                "meta.function.decorator"
             ],
             "settings": {
                 "foreground": "#b4b4b4",
