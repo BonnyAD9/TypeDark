@@ -22,13 +22,13 @@
         "activityBar.foreground":"#eeeeee",
 
         "button.hoverBackground":"#ffff00",
-        "minimap.selectionHighlight":"#ffff00",
+        "minimap.selectionHighlight":"#ffff00FE",
 
         "editorLineNumber.activeForeground":"#a0a000",
 
         "editor.selectionBackground":"#444400",
 
-        "editor.hoverHighlightBackground":"#555500",
+        "editor.hoverHighlightBackground":"#dddd0055",
 
         "editorSuggestWidget.highlightForeground":"#dddd00dd",
 
@@ -607,7 +607,8 @@
                 "source.shell variable.other",
                 "text.tex.latex support.function",
                 "entity.name.function.preprocessor",
-                "storage.source.cmake"
+                "storage.source.cmake",
+                "support.variable.magic.python"
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -709,6 +710,8 @@
         "method.static": {
             "foreground": "#e4ffe7",
             "fontStyle": "bold italic"
-        }
+        },
+        "*.typeHint.builtin": "#ed478f",
+        "*.typeHint": "#28c3cc"
     }
 }

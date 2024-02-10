@@ -22,7 +22,7 @@
         "activityBar.foreground":"#11b394",
 
         "button.hoverBackground":"#12cca9",
-        "minimap.selectionHighlight":"#12cca9",
+        "minimap.selectionHighlight":"#12cca9FE",
 
         "editorLineNumber.activeForeground":"#3b9987",
 
@@ -607,7 +607,8 @@
                 "source.shell variable.other",
                 "text.tex.latex support.function",
                 "entity.name.function.preprocessor",
-                "storage.source.cmake"
+                "storage.source.cmake",
+                "support.variable.magic.python"
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -709,6 +710,8 @@
         "method.static": {
             "foreground": "#e4ffe7",
             "fontStyle": "bold italic"
-        }
+        },
+        "*.typeHint.builtin": "#ed478f",
+        "*.typeHint": "#28c3cc"
     }
 }

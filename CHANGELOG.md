@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.2.0
+- Improve python syntax highlighting
+
 ## v1.1.0
 - Improve markdown
 
