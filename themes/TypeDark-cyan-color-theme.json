@@ -285,7 +285,8 @@
                 "source.toml string.quoted.single",
                 "string.template.ts",
                 "constant.string",
-                "string.source.cmake"
+                "string.source.cmake",
+                "string.quoted.multi"
             ],
             "settings": {
                 "foreground": "#e5a55b"
