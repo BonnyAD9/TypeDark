@@ -179,10 +179,9 @@
             "scope": [
                 "entity.name.tag",
                 "keyword.mnemonic",
-                "keyword",
+                // "keyword",
                 "storage.modifier",
                 "storage.type.struct.cpp",
-                "keyword.other",
                 "storage.type",
                 "keyword.operator.quantifier.regexp",
             ],
@@ -263,7 +262,11 @@
         {
             "name": "Control keywords",
             "scope": [
-                "keyword.control",
+                //"keyword.control",
+                "source.python keyword.control",
+                "source.cs storage.type",
+                "source.cs storage.modifier",
+                "keyword.other",
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
@@ -279,7 +282,7 @@
             "name": "String literal",
             "scope": [
                 "string.quoted.double",
-                "meta.interpolation variable.other.readwrite",
+                // "meta.interpolation variable.other.readwrite",
                 "string.template.js",
                 "string.quoted.single.js",
                 "meta.preprocessor.string.cs",
@@ -726,6 +729,10 @@
         "method.static": {
             "foreground": "#e4ffe7",
             "fontStyle": "bold italic"
+        },
+        "property.static": {
+            "foreground": "#e4ffe7",
+            "fontStyle": "bold"
         },
         "*.typeHint.builtin": "#ed478f",
         "*.typeHint": "#28c3cc"

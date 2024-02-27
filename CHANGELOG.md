@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.2
+- Better bython syntax highlighting
+- Better C# syntax highlighting
+
 ## v1.1.1
 - Improve python syntax highlighting
 
