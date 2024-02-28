@@ -168,7 +168,7 @@
             "scope": [
                 "meta.preprocessor string",
                 "entity.name.namespace",
-                "entity.name.section.vhdl"
+                "entity.name.section.vhdl",
             ],
             "settings": {
                 "foreground": "#19b6ff"
@@ -193,7 +193,8 @@
             "name": "Function",
             "scope": [
                 "entity.name.function",
-                "support.function"
+                "support.function",
+                "entity.name.label.cs",
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -217,8 +218,8 @@
         {
             "name": "Copula",
             "scope": [
-                //"punctuation.definition.directive",
-                "copula"
+                "punctuation.definition.directive",
+                "copula",
             ],
             "settings": {
                 "foreground": "#7faeff"
@@ -252,7 +253,9 @@
             "name": "Line comment",
             "scope": [
                 "comment.line",
-                "comment"
+                "comment meta.paragraph",
+                "comment.source",
+                // "comment"
             ],
             "settings": {
                 "foreground": "#666666",
@@ -263,6 +266,12 @@
             "name": "Control keywords",
             "scope": [
                 //"keyword.control",
+                "keyword.control.context",
+                "keyword.control.flow",
+                "keyword.control.conditional",
+                "keyword.control.exception",
+                "keyword.control.loop",
+                "keyword.control.directive",
                 "source.python keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
@@ -271,6 +280,7 @@
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
                 "variable.language.this",
+                "variable.language.base",
                 "variable.parameter.function.language.special.self"
             ],
             "settings": {
@@ -659,7 +669,7 @@
             "name": "rust attribute",
             "scope": [
                 "meta.attribute.rust",
-                "meta.function.decorator"
+                "meta.function.decorator",
             ],
             "settings": {
                 "foreground": "#b4b4b4",
@@ -694,6 +704,53 @@
             "settings": {
                 "foreground": "#e4ffe7",
             }
+        },
+        {
+            "name": "Doc keyword",
+            "scope": [
+                "storage.type.class.doxygen"
+            ],
+            "settings": {
+                "foreground": "#355a99",
+            }
+        },
+        {
+            "name": "Doc parameter",
+            "scope": [
+                "comment.block.documentation variable.parameter",
+            ],
+            "settings": {
+                "foreground": "#b9833c",
+            }
+        },
+        {
+            "name": "Doc string",
+            "scope": [
+                "comment markup.inline"
+            ],
+            "settings": {
+                "foreground": "#aa7f4f"
+            }
+        },
+        {
+            "name": "Doc header punctuation",
+            "scope": [
+                "comment punctuation.definition.heading"
+            ],
+            "settings": {
+                "foreground": "#297ba1",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Doc header",
+            "scope": [
+                "comment entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#6c8c9b",
+                "fontStyle": "bold italic"
+            }
         }
     ],
     "semanticHighlighting": true,
@@ -703,8 +760,8 @@
         {
             "fontStyle": "bold"
         },
-        "type:c": "#28c3cc",
-        "type:cpp": "#28c3cc",
+        "type:c": "#28cc92",
+        "type:cpp": "#28cc92",
         "macro": "#e2ccff",
         "enumMember:c": "#ccc88e",
         "class.static": {
@@ -733,6 +790,10 @@
             "fontStyle": "bold"
         },
         "*.typeHint.builtin": "#ed478f",
-        "*.typeHint": "#28c3cc"
+        "*.typeHint": "#28c3cc",
+        "delegate:csharp": "#28c3cc",
+        "xmlDocCommentName": "#4869a1",
+        "xmlDocCommentAttributeName": "#37a6ac",
+        "xmlDocCommentAttributeQuotes": "#8d6b43",
     }
 }
