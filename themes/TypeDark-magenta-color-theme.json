@@ -280,6 +280,7 @@
                 "keyword.control.exception",
                 "keyword.control.loop",
                 "keyword.control.directive",
+                "source.cpp keyword.control",
                 "source.python keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
@@ -770,6 +771,7 @@
         },
         "type:c": "#28cc92",
         "type:cpp": "#28cc92",
+        "templateType:cpp": "#28cc92",
         "macro": "#e2ccff",
         "enumMember:c": "#ccc88e",
         "class.static": {
