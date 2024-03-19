@@ -282,6 +282,7 @@
                 "keyword.control.directive",
                 "source.cpp keyword.control",
                 "source.python keyword.control",
+                "source.java keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -669,6 +670,7 @@
                 "support.type.primitive",
                 "support.other.match.end.regexp",
                 "support.other.match.begin.regexp",
+                "storage.type.primitive",
             ],
             "settings": {
                 "foreground": "#ed478f",
@@ -679,6 +681,8 @@
             "scope": [
                 "meta.attribute.rust",
                 "meta.function.decorator",
+                "storage.type.annotation.java",
+                "punctuation.definition.annotation.java",
             ],
             "settings": {
                 "foreground": "#b4b4b4",
@@ -688,8 +692,7 @@
         {
             "name": "Lesser Foreground",
             "scope": [
-                "comment.line.documentation.rust",
-                "meta.preprocessor.macro"
+                "meta.preprocessor.macro",
             ],
             "settings": {
                 "foreground": "#ccc"
