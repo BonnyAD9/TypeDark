@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.8
+- Fix C
+- Improve shell support
+
 ## v1.1.7
 - Fix rust doc comments
 - Better Java support

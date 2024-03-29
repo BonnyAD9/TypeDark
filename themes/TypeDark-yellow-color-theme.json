@@ -208,7 +208,9 @@
                 "meta.property-name.css",
                 "variable.other.positional",
                 "variable.other.metavariable.name",
-                "entity.name.function.io.brainfuck"
+                "entity.name.function.io.brainfuck",
+                "constant.other.option.dash.shell",
+                "constant.other.option",
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -275,6 +277,8 @@
                 "source.cpp keyword.control",
                 "source.python keyword.control",
                 "source.java keyword.control",
+                "source.c keyword.control",
+                "source.shell keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -307,6 +311,7 @@
                 "string.regexp.quoted.single.python punctuation.definition.string.begin.python",
                 "string.regexp.quoted.single.python punctuation.definition.string.end.python",
                 "string.regexp",
+                "string.unquoted.heredoc",
             ],
             "settings": {
                 "foreground": "#e5a55b"
@@ -417,6 +422,7 @@
                 "variable.other.metavariable.specifier",
                 "source.vhdl support.type",
                 "entity.name.type.type.vhdl",
+                "entity.name.command.shell",
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -492,7 +498,7 @@
             "name": "Inline",
             "scope": [
                 "markup.inline",
-                "markup.fenced_code.block"
+                "markup.fenced_code.block",
             ],
             "settings": {
                 "foreground": "#e5a55b",
@@ -663,6 +669,7 @@
                 "support.other.match.end.regexp",
                 "support.other.match.begin.regexp",
                 "storage.type.primitive",
+                "support.function.builtin.shell",
             ],
             "settings": {
                 "foreground": "#ed478f",
@@ -730,7 +737,8 @@
         {
             "name": "Doc string",
             "scope": [
-                "comment markup.inline"
+                "comment markup.inline",
+                "punctuation.definition.string.heredoc.shell",
             ],
             "settings": {
                 "foreground": "#aa7f4f"
