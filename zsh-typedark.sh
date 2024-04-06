@@ -1,8 +1,15 @@
+# this works with the zsh-syntax-highlighting plugin:
+# https://github.com/zsh-users/zsh-syntax-highlighting
+
+# you can source this file in your .zshrc (or just copy the contents there)
+
+# enable additional highlighters
 ZSH_HIGHLIGHT_HIGHLIGHTERS+=(
     regexp
     brackets
 )
 
+# set the main colors
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff3232,bold'
 ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=#4c8dff'
 ZSH_HIGHLIGHT_STYLES[alias]='fg=#e2ccff'
@@ -38,6 +45,8 @@ ZSH_HIGHLIGHT_STYLES[numeric-fd]='fg=#d072e5,underline'
 ZSH_HIGHLIGHT_STYLES[autodirectory]='fg=#ccc88e,underline'
 
 # additional regex styles
+# these add highlighting for environment variables, but they also highlight
+# when inside single quoted string
 typeset -A ZSH_HIGHLIGHT_REGEXP
 ZSH_HIGHLIGHT_REGEXP+=('\$[a-zA-Z_][a-zA-Z0-9_]*' 'fg=#e2ccff')
 ZSH_HIGHLIGHT_REGEXP+=('\$\{[a-zA-Z_][a-zA-Z0-9_]*\}' 'fg=#e2ccff')
