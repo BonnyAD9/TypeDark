@@ -169,6 +169,8 @@
                 "meta.preprocessor string",
                 "entity.name.namespace",
                 "entity.name.section.vhdl",
+                "entity.name.type.namespace",
+                "support.other.namespace",
             ],
             "settings": {
                 "foreground": "#19b6ff"
@@ -234,7 +236,7 @@
                 "storage.modifier.pointer.cpp",
                 "source.makefile punctuation",
                 "storage.type.function.arrow.js",
-                "punctuation.separator.key-value.html"
+                "punctuation.separator.key-value.html",
             ],
             "settings": {
                 "foreground": "#e5dba0"
@@ -279,6 +281,7 @@
                 "source.java keyword.control",
                 "source.c keyword.control",
                 "source.shell keyword.control",
+                "source.php keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -322,7 +325,8 @@
             "scope": [
                 "constant.other.placeholder",
                 "punctuation.definition.interpolation",
-                "punctuation.definition.template-expression"
+                "punctuation.definition.template-expression",
+                "punctuation.section.embedded.begin.php",
             ],
             "settings": {
                 "foreground": "#e0e55b",
@@ -406,7 +410,9 @@
         {
             "name": "Enum member",
             "scope": [
-                "variable.other.enummember"
+                "variable.other.enummember",
+                "constant.enum",
+                "constant.other.class.php",
             ],
             "settings": {
                 "foreground": "#ccc88e"
@@ -423,6 +429,7 @@
                 "source.vhdl support.type",
                 "entity.name.type.type.vhdl",
                 "entity.name.command.shell",
+                "meta.class support.function.constructor",
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -469,7 +476,9 @@
                 "meta.interpolation",
                 "meta.template.expression.js",
                 "variable.parameter.label.asm",
-                "support.class.math.block"
+                "support.class.math.block",
+                "entity.name.type.namespace punctuation.separator.inheritance",
+                "meta.use punctuation.separator.inheritance"
             ],
             "settings": {
                 "foreground": "#eeeeee",
@@ -602,6 +611,7 @@
             "name": "Markdown constant",
             "scope": [
                 "constant.other.reference.link.markdown",
+                "constant.other",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -670,6 +680,7 @@
                 "support.other.match.begin.regexp",
                 "storage.type.primitive",
                 "support.function.builtin.shell",
+                "keyword.other.type",
             ],
             "settings": {
                 "foreground": "#ed478f",
@@ -763,7 +774,16 @@
                 "foreground": "#6c8c9b",
                 "fontStyle": "bold italic"
             }
-        }
+        },
+        {
+            "name": "Method",
+            "scope": [
+                "meta.method-call",
+            ],
+            "settings": {
+                "foreground": "#e4ffe7"
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {

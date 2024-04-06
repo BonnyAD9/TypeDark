@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.9
+- Better PHP support
+
 ## v1.1.8
 - Fix C
 - Improve shell support
