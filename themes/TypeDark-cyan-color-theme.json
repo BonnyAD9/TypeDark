@@ -282,6 +282,7 @@
                 "source.c keyword.control",
                 "source.shell keyword.control",
                 "source.php keyword.control",
+                "source.oraclesql keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -413,6 +414,7 @@
                 "variable.other.enummember",
                 "constant.enum",
                 "constant.other.class.php",
+                "invalid.illegal.exception.oraclesql",
             ],
             "settings": {
                 "foreground": "#ccc88e"
@@ -652,7 +654,8 @@
                 "entity.name.function.preprocessor",
                 "storage.source.cmake",
                 "support.variable.magic.python",
-                "support.function.magic.python"
+                "support.function.magic.python",
+                "source.oraclesql support.function.builtin",
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -681,6 +684,7 @@
                 "storage.type.primitive",
                 "support.function.builtin.shell",
                 "keyword.other.type",
+                "support.type.oraclesql",
             ],
             "settings": {
                 "foreground": "#ed478f",
