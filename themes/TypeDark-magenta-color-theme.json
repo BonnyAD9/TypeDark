@@ -299,6 +299,7 @@
                 "support.type.property-name.table.toml",
                 "variable.language.this",
                 "variable.language.base",
+                "variable.language.java",
                 "variable.parameter.function.language.special.self"
             ],
             "settings": {
