@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.13
+- Zig: fix keyword constants
+
 ## v1.1.12
 - Beter zig support
 

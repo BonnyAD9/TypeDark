@@ -387,6 +387,7 @@
                 "constant.language",
                 "constant.other.color",
                 "entity.name.tag.backreference",
+                "keyword.constant",
             ],
             "settings": {
                 "foreground": "#d072e5"
