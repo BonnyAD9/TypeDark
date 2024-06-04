@@ -177,21 +177,6 @@
             }
         },
         {
-            "name": "Keywords",
-            "scope": [
-                "entity.name.tag",
-                "keyword.mnemonic",
-                // "keyword",
-                "storage.modifier",
-                "storage.type.struct.cpp",
-                "storage.type",
-                "keyword.operator.quantifier.regexp",
-            ],
-            "settings": {
-                "foreground": "#4c8dff"
-            }
-        },
-        {
             "name": "Function",
             "scope": [
                 "entity.name.function",
@@ -267,9 +252,11 @@
             }
         },
         {
-            "name": "Control keywords",
+            "name": "Keywords",
             "scope": [
-                //"keyword.control",
+                // "keyword", // not here because of C#
+                //"keyword.control", // not in here because of C#
+                "keyword.default",
                 "keyword.control.context",
                 "keyword.control.flow",
                 "keyword.control.conditional",
@@ -283,6 +270,7 @@
                 "source.shell keyword.control",
                 "source.php keyword.control",
                 "source.oraclesql keyword.control",
+                "source.zig keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -292,7 +280,14 @@
                 "variable.language.this",
                 "variable.language.base",
                 "variable.language.java",
-                "variable.parameter.function.language.special.self"
+                "variable.parameter.function.language.special.self",
+                "entity.name.tag",
+                "keyword.mnemonic",
+                "storage.modifier",
+                "storage.type.struct.cpp",
+                "storage.type",
+                "keyword.operator.quantifier.regexp",
+                "keyword.storage.zig",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -657,6 +652,7 @@
                 "support.variable.magic.python",
                 "support.function.magic.python",
                 "source.oraclesql support.function.builtin",
+                "support.function.builtin.zig",
             ],
             "settings": {
                 "foreground": "#e2ccff",

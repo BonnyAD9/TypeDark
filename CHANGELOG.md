@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.12
+- Beter zig support
+
 ## v1.1.11
 - Java: fix color of the keyword `super`
 
