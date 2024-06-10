@@ -288,6 +288,7 @@
                 "storage.type",
                 "keyword.operator.quantifier.regexp",
                 "keyword.storage.zig",
+                "keyword.structure",
             ],
             "settings": {
                 "foreground": "#4c8dff",

@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.14
+- Zig: fix `struct`, `enum` and `union` keywords coloring.
+
 ## v1.1.13
 - Zig: fix keyword constants
 
