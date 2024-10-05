@@ -289,6 +289,7 @@
                 "keyword.operator.quantifier.regexp",
                 "keyword.storage.zig",
                 "keyword.structure",
+                "keyword.cmake",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -413,6 +414,7 @@
                 "constant.enum",
                 "constant.other.class.php",
                 "invalid.illegal.exception.oraclesql",
+                "entity.source.cmake",
             ],
             "settings": {
                 "foreground": "#ccc88e"
@@ -655,6 +657,7 @@
                 "support.function.magic.python",
                 "source.oraclesql support.function.builtin",
                 "support.function.builtin.zig",
+                "variable.source.cmake",
             ],
             "settings": {
                 "foreground": "#e2ccff",
@@ -696,6 +699,7 @@
                 "meta.function.decorator",
                 "storage.type.annotation.java",
                 "punctuation.definition.annotation.java",
+                "support.other.attribute.cpp",
             ],
             "settings": {
                 "foreground": "#b4b4b4",

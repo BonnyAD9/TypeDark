@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.15
+- C++: update support
+- CMake: update support
+
 ## v1.1.14
 - Zig: fix `struct`, `enum` and `union` keywords coloring.
 
