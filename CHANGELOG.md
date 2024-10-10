@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.16
+- Add kumuhana variant, slightly different version of the cyan variant.
+
 ## v1.1.15
 - C++: update support
 - CMake: update support
