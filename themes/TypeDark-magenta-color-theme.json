@@ -230,6 +230,7 @@
                 "source.makefile punctuation",
                 "storage.type.function.arrow.js",
                 "punctuation.separator.key-value.html",
+                "punctuation.definition.variable.php",
             ],
             "settings": {
                 "foreground": "#e5dba0"
@@ -271,6 +272,7 @@
                 "keyword.control.exception",
                 "keyword.control.loop",
                 "keyword.control.directive",
+                "keyword.control.twig",
                 "source.cpp keyword.control",
                 "source.python keyword.control",
                 "source.java keyword.control",
@@ -279,6 +281,8 @@
                 "source.php keyword.control",
                 "source.oraclesql keyword.control",
                 "source.zig keyword.control",
+                "source.js keyword.control",
+                "source.ts keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "keyword.other",
@@ -334,6 +338,7 @@
                 "punctuation.definition.interpolation",
                 "punctuation.definition.template-expression",
                 "punctuation.section.embedded.begin.php",
+                "string.quoted.double.html punctuation.section.tag.twig",
             ],
             "settings": {
                 "foreground": "#e0e55b",
@@ -440,6 +445,7 @@
                 "entity.name.type.type.vhdl",
                 "entity.name.command.shell",
                 "meta.class support.function.constructor",
+                "entity.other.inherited-class.php",
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -674,8 +680,8 @@
         {
             "name": "Static/Constant",
             "scope": [
-                "variable.other.constant.js",
-                "source.css variable"
+                "variable.other.constant",
+                "source.css variable",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -708,6 +714,7 @@
                 "storage.type.annotation.java",
                 "punctuation.definition.annotation.java",
                 "support.other.attribute.cpp",
+                "meta.attribute.php",
             ],
             "settings": {
                 "foreground": "#b4b4b4",
@@ -797,6 +804,15 @@
             ],
             "settings": {
                 "foreground": "#e4ffe7"
+            }
+        },
+        {
+            "name": "White override",
+            "scope": [
+                "meta.tag.template.value.twig"
+            ],
+            "settings": {
+                "foreground": "#eee",
             }
         },
     ],

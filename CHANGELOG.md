@@ -1,5 +1,12 @@
 # Change Log
 
+## v1.1.17
+- Fix keywords in javascript and typescript
+- Fix deried class in php
+- Fix attributes in php
+- Add support to twig
+- Highlight $ in php
+
 ## v1.1.16
 - Add kumuhana variant, slightly different version of the cyan variant.
 
