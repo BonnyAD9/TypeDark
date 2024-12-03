@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.18
+- Better AWK support.
+
 ## v1.1.17
 - Fix keywords in javascript and typescript
 - Fix deried class in php

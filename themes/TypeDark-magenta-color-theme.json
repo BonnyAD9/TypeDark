@@ -273,6 +273,7 @@
                 "keyword.control.loop",
                 "keyword.control.directive",
                 "keyword.control.twig",
+                "keyword.control.awk",
                 "source.cpp keyword.control",
                 "source.python keyword.control",
                 "source.java keyword.control",
@@ -672,6 +673,8 @@
                 "source.oraclesql support.function.builtin",
                 "support.function.builtin.zig",
                 "variable.source.cmake",
+                "variable.language.nawk",
+                "variable.language.awk",
             ],
             "settings": {
                 "foreground": "#e2ccff",
