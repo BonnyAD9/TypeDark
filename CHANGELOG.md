@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.19
+- Better Go support
+
 ## v1.1.18
 - Better AWK support.
 

@@ -179,6 +179,7 @@
                 "entity.name.section.vhdl",
                 "entity.name.type.namespace",
                 "support.other.namespace",
+                "entity.name.type.package",
             ],
             "settings": {
                 "foreground": "#19b6ff"
@@ -286,6 +287,7 @@
                 "source.ts keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
+                "source.go keyword",
                 "keyword.other",
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
@@ -303,6 +305,7 @@
                 "keyword.storage.zig",
                 "keyword.structure",
                 "keyword.cmake",
+                "keyword.type.go",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -380,7 +383,7 @@
         {
             "name": "Char",
             "scope": [
-                "string.quoted.single"
+                "string.quoted.single",
             ],
             "settings": {
                 "foreground": "#e5ce5b",
@@ -461,6 +464,7 @@
                 "entity.name.type.architecture",
                 "punctuation.character.set.begin.regexp",
                 "punctuation.character.set.end.regexp",
+                "entity.name.type.go",
             ],
             "settings": {
                 "foreground": "#28cc92"
@@ -704,6 +708,10 @@
                 "support.function.builtin.shell",
                 "keyword.other.type",
                 "support.type.oraclesql",
+                "storage.type.error.go",
+                "storage.type.numeric",
+                "storage.type.boolean",
+                "keyword.map.go",
             ],
             "settings": {
                 "foreground": "#ed478f",
