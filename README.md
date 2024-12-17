@@ -65,6 +65,7 @@ with pleasant colors.
 - JavaScript
 - Json
 - LaTeX
+- Makefile
 - Markdown
 - PHP
 - Prolog
