@@ -280,6 +280,7 @@
                 "source.cs storage.type",
                 "source.cs storage.modifier",
                 "source.go keyword",
+                "source.tsx keyword",
                 "keyword.other",
                 "source.makefile support.function",
                 "keyword.operator.conjunction",

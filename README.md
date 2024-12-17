@@ -49,6 +49,26 @@ with pleasant colors.
 | Global variable | ![#ccdeff](https://placehold.co/15x15/ccdeff/ccdeff.png) | `#ccdeff` |
 | Property/Method | ![#e4ffe7](https://placehold.co/15x15/e4ffe7/e4ffe7.png) | `#e4ffe7` |
 
+## Well supported languages
+- AWK
+- CMake
+- C
+- C#
+- C++
+- Go
+- Java
+- JavaScript
+- Markdown
+- PHP
+- Python
+- Rust
+- Shell
+- SQL
+- Tsx
+- TypeScript
+- Twig
+- Zig
+
 ## How to get it
 It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
 

@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.20
+- Better tsx support
+
 ## v1.1.19
 - Better Go support
 
