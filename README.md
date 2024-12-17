@@ -50,23 +50,35 @@ with pleasant colors.
 | Property/Method | ![#e4ffe7](https://placehold.co/15x15/e4ffe7/e4ffe7.png) | `#e4ffe7` |
 
 ## Well supported languages
+- Assembly
 - AWK
+- Brainfuck
 - CMake
 - C
 - C#
 - C++
 - Go
+- Haskell
+- HTML
+- J
 - Java
 - JavaScript
+- Json
+- LaTeX
 - Markdown
 - PHP
+- Prolog
 - Python
 - Rust
 - Shell
+- Svg
 - SQL
+- TOML
 - Tsx
 - TypeScript
 - Twig
+- VHDL
+- XML
 - Zig
 
 ## How to get it

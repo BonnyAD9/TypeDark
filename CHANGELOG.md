@@ -2,6 +2,7 @@
 
 ## v1.1.20
 - Better tsx support
+- Better haskell support
 
 ## v1.1.19
 - Better Go support

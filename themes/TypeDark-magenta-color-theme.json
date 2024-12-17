@@ -713,6 +713,7 @@
                 "storage.type.numeric",
                 "storage.type.boolean",
                 "keyword.map.go",
+                "storage.type.haskell",
             ],
             "settings": {
                 "foreground": "#ed478f",
