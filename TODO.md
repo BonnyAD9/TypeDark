@@ -1,0 +1,3 @@
+- bat theme
+- nvim theme
+- zed theme
