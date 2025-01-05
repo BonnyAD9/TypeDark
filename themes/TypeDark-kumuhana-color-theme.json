@@ -785,6 +785,15 @@
                 "foreground": "#eee",
             }
         },
+        {
+            "name": "Rule",
+            "scope": [
+                "keyword.control.at-rule",
+            ],
+            "settings": {
+                "foreground": "#4c8dff",
+            }
+        },
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
