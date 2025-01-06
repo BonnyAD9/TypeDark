@@ -57,6 +57,7 @@ with pleasant colors.
 - C
 - C#
 - C++
+- CSS
 - Go
 - Haskell
 - HTML
