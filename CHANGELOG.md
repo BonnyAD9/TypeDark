@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.22
+- Better razor support.
+
 ## v1.1.21
 - Fix css at-keywords.
 

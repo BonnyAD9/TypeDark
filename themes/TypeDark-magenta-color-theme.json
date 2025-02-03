@@ -232,6 +232,7 @@
                 "storage.type.function.arrow.js",
                 "punctuation.separator.key-value.html",
                 "punctuation.definition.variable.php",
+                "keyword.control.cshtml.transition",
             ],
             "settings": {
                 "foreground": "#e5dba0"
@@ -500,7 +501,8 @@
                 "variable.parameter.label.asm",
                 "support.class.math.block",
                 "entity.name.type.namespace punctuation.separator.inheritance",
-                "meta.use punctuation.separator.inheritance"
+                "meta.use punctuation.separator.inheritance",
+                "text.aspnetcorerazor meta.expression",
             ],
             "settings": {
                 "foreground": "#eeeeee",
@@ -857,6 +859,7 @@
             "fontStyle": "italic"
         },
         "plainKeyword": "#4c8dff",
+        "razorDirective": "#4c8dff",
         "typeAlias": {
             "foreground": "#28cc92",
             "fontStyle": "bold"

@@ -71,6 +71,7 @@ with pleasant colors.
 - PHP
 - Prolog
 - Python
+- Razor
 - Rust
 - Shell
 - Svg
