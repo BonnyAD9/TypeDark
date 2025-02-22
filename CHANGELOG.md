@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.24
+- Fix rust self keywords.
+
 ## v1.1.23
 - Support minecraft commands.
 - Support EBNF.

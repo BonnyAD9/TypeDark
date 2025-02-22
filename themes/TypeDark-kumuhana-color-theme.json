@@ -280,6 +280,7 @@
                 "keyword.cmake",
                 "keyword.type.go",
                 "keyword.language",
+                "source.rust variable.language",
             ],
             "settings": {
                 "foreground": "#4c8dff",
