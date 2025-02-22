@@ -490,7 +490,8 @@
         {
             "name": "Enum",
             "scope": [
-                "entity.name.type.enum"
+                "entity.name.type.enum",
+                "support.type.property-name.array",
             ],
             "settings": {
                 "foreground": "#71ce6d"
@@ -732,7 +733,6 @@
                 "storage.type.boolean",
                 "keyword.map.go",
                 "storage.type.haskell",
-                "support.type.property-name.array",
             ],
             "settings": {
                 "foreground": "#ed478f",
@@ -931,6 +931,8 @@
         "variable:mcfunction": {
             "foreground": "#ffa632",
             "fontStyle": "italic"
-        }
+        },
+        "keyword:rust": "#4c8dff",
+        "tomlArrayKey": "#28C3CC",
     }
 }

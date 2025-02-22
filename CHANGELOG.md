@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.25
+- Fix rust macro_rules keyword.
+- Fix toml arrays.
+
 ## v1.1.24
 - Fix rust self keywords.
 
