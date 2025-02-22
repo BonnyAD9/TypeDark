@@ -225,6 +225,9 @@
                 "punctuation.separator.key-value.html",
                 "punctuation.definition.variable.php",
                 "keyword.control.cshtml.transition",
+                "source.prolog keyword.control",
+                "storage.type.function.arrow.ts",
+                "punctuation.separator.statement.background.shell",
             ],
             "settings": {
                 "foreground": "#e5dba0"
@@ -234,7 +237,8 @@
             "name": "Block comment",
             "scope": [
                 "comment.block",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "comment.ebnf",
             ],
             "settings": {
                 "foreground": "#7f7f7f",
@@ -258,7 +262,8 @@
             "name": "Keywords",
             "scope": [
                 // "keyword", // not here because of C#
-                //"keyword.control", // not in here because of C#
+                // "keyword.control", // not in here because of C#
+                // "keyword.other", // Not here because of mcfunction files
                 "keyword.default",
                 "keyword.control.context",
                 "keyword.control.flow",
@@ -269,9 +274,12 @@
                 "keyword.control.twig",
                 "keyword.control.awk",
                 "source.cpp keyword.control",
+                "source.cpp keyword.other",
                 "source.python keyword.control",
                 "source.java keyword.control",
+                "source.java keyword.other",
                 "source.c keyword.control",
+                "source.c keyword.other",
                 "source.shell keyword.control",
                 "source.php keyword.control",
                 "source.oraclesql keyword.control",
@@ -280,10 +288,15 @@
                 "source.ts keyword.control",
                 "source.cs storage.type",
                 "source.cs storage.modifier",
+                "source.cs keyword.other",
                 "source.go keyword",
                 "source.tsx keyword",
-                "keyword.other",
+                "source.haskell keyword",
                 "source.makefile support.function",
+                "source.prolog keyword.other",
+                "source.rust keyword.control",
+                "source.rust keyword.other",
+                "source.sql keyword.other",
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
                 "variable.language.this",
@@ -300,6 +313,7 @@
                 "keyword.structure",
                 "keyword.cmake",
                 "keyword.type.go",
+                "keyword.language",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -479,7 +493,8 @@
                 "entity.name.type.interface",
                 "text.tex.latex constant.other",
                 "entity.other.inherited-class.vhdl",
-                "source.vhdl entity.name.type.entity"
+                "source.vhdl entity.name.type.entity",
+                "support.class.mcfunction",
             ],
             "settings": {
                 "foreground": "#b0cc28"
@@ -571,7 +586,7 @@
         {
             "name": "Bold",
             "scope": [
-                "markup.bold"
+                "markup.bold",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -708,6 +723,7 @@
                 "storage.type.boolean",
                 "keyword.map.go",
                 "storage.type.haskell",
+                "support.type.property-name.array",
             ],
             "settings": {
                 "foreground": "#ed478f",
@@ -722,6 +738,7 @@
                 "punctuation.definition.annotation.java",
                 "support.other.attribute.cpp",
                 "meta.attribute.php",
+                "meta.tag.preprocessor.xml",
             ],
             "settings": {
                 "foreground": "#b4b4b4",
@@ -759,7 +776,8 @@
         {
             "name": "Doc keyword",
             "scope": [
-                "storage.type.class.doxygen"
+                "storage.type.class.doxygen",
+                "storage.type.class.jsdoc",
             ],
             "settings": {
                 "foreground": "#355a99",
@@ -805,6 +823,16 @@
             }
         },
         {
+            "name": "Doc class",
+            "scope": [
+                "entity.name.type.instance.jsdoc",
+            ],
+            "settings": {
+                "foreground": "#337b7f",
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Method",
             "scope": [
                 "meta.method-call",
@@ -816,7 +844,8 @@
         {
             "name": "White override",
             "scope": [
-                "meta.tag.template.value.twig"
+                "meta.tag.template.value.twig",
+                "keyword.control.flow.mcfunction",
             ],
             "settings": {
                 "foreground": "#eee",
@@ -876,5 +905,21 @@
         "xmlDocCommentName": "#4869a1",
         "xmlDocCommentAttributeName": "#37a6ac",
         "xmlDocCommentAttributeQuotes": "#8d6b43",
+        "literal:mcfunction": {
+            "fontStyle": "italic",
+        },
+        "type:mcfunction": "#28c3cc",
+        "resourceLocation:mcfunction": {
+            "foreground": "#ccc88e",
+            "fontStyle": "",
+        },
+        "keyword:mcfunction": {
+            "foreground": "#4c8dff",
+            "fontStyle": "italic"
+        },
+        "variable:mcfunction": {
+            "foreground": "#ffa632",
+            "fontStyle": "italic"
+        }
     }
 }

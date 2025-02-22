@@ -1,5 +1,17 @@
 # Change Log
 
+## v1.1.23
+- Support minecraft commands.
+- Support EBNF.
+- Better javascript support.
+- Better haskell support.
+- Better prolog support.
+- Better TypeScript support.
+- Better TOML support.
+- Better VHDL support.
+- Better shell support.
+- Better XML (SVG) support.
+
 ## v1.1.22
 - Better razor support.
 

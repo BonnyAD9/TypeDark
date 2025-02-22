@@ -1,0 +1,6 @@
+@media screen and (max-width: 200px) {
+    .slider-wrapper > .slider > div {
+        width: calc(100% - 10px);
+        min-width: calc(100% - 10px);
+    }
+}

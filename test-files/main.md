@@ -58,7 +58,6 @@ with pleasant colors.
 - C# (C#)
 - C++ (Better C++ Syntax)
 - CSS
-- EBNF (EBNF Tools)
 - Go (Go, for best expirience add `"gopls": { "ui.semanticTokens": true,},`
   to your vscode json settings.)
 - Haskell (Haskell)
@@ -70,21 +69,22 @@ with pleasant colors.
 - LaTeX (LaTeX wokshop)
 - Makefile
 - Markdown
-- Minecraft (SPGoding)
-- PHP (PHP)
-- Prolog (New-VSC-Prolog)
-- Python (Pylance)
-- Razor (C#)
-- Rust (rust-analyzer)
+- Minecraft
+- PHP
+- Prolog
+- Python
+- Razor
+- Rust
 - Shell
+- Svg
 - SQL
-- TOML (Even Better TOML)
+- TOML
 - Tsx
 - TypeScript
-- Twig (Twig)
-- VHDL (VHDL)
-- XML (/ SVG) (XML)
-- Zig (Zig Language)
+- Twig
+- VHDL
+- XML
+- Zig
 
 ## How to get it
 It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
