@@ -1,5 +1,8 @@
 <?php
 
+namespace App;
+use App;
+
 $rules = [];
 
 while (true) {
@@ -93,3 +96,11 @@ function swap(mixed &$a, mixed &$b) {
     $a = $b;
     $b = $h;
 }
+
+class SomeClass {
+    public function __construct() {
+        echo "lol";
+    }
+}
+
+$lol = new SomeClass();

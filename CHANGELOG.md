@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.1.27
+- Fix `var` keyword and types in some special contexts in C# razor.
+- Fix TypeScript template expressions.
+- Fix some keywords in PHP (`namespace`, `use`, `new` and possibly others).
+- Use special highlighting for functions like echo in PHP.
+
 ## v1.1.26
 - Fix latex keywords, operators and character constants.
 - Fix rust bool literals.

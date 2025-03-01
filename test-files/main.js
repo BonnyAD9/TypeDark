@@ -1,4 +1,6 @@
 import "";
+import DatePicker from "react-date-picker";
+import 'react-date-picker/dist/DatePicker.css'
 
 class FSItem {
     /** @type {Path} */
@@ -61,4 +63,49 @@ function createFile(dir, name) {
         value: "",
     };
     return dir.value[name];
+}
+
+function DateInput(props) {
+    const onChange = (e) => {
+        // one way of handling the input change, set new value to the data the
+        // caller has passed
+        if (props.data) {
+            props.data.setData({
+                ...props.data.data,
+                [props.name]: e,
+            });
+        }
+
+        // second way of handling the input change: event
+        if (props.onChange) {
+            props.onChange({ target: { value: e, name: props.name } });
+        }
+    };
+
+    const onBlur = (e) => {
+        // one way of handling the input save, set new value to the data the
+        // caller has passed
+        if (props.save) {
+            props.save(props.data.data);
+        }
+
+        // second way of handling the input save: event
+        if (props.onBlur) {
+            if (!e.target.parentElement.parentElement.matches(":focus-within"))
+            {
+                props.onBlur({target: { name: props.name }});
+            }
+        }
+    };
+
+    return <DatePicker
+        calendarIcon={null}
+        clearIcon={null}
+        disableCalendar
+        className="date-picker"
+        format={props.format ? props.format : "dd.MM.yyyy"}
+        onChange={onChange}
+        onBlur={onBlur}
+        value={props.data ? props.data.data[props.name] : props.value}
+    />
 }

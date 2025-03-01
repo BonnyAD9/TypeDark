@@ -10,6 +10,7 @@ Contains several color variants:
 - Yellow
 - Cyan
 - Magenta
+- Kumuhana
 
 ## How it looks
 The yellow version (My favourite)

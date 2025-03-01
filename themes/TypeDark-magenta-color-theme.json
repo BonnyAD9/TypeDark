@@ -291,6 +291,7 @@
                 "source.c keyword.other",
                 "source.shell keyword.control",
                 "source.php keyword.control",
+                "source.php keyword.other",
                 "source.oraclesql keyword.control",
                 "source.zig keyword.control",
                 "source.js keyword.control",
@@ -326,6 +327,7 @@
                 "keyword.language",
                 "source.rust variable.language",
                 "entity.name.function.macro.rules.rust",
+                "keyword.other.var.cs",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -471,6 +473,7 @@
                 "entity.name.command.shell",
                 "meta.class support.function.constructor",
                 "entity.other.inherited-class.php",
+                "text.aspnetcorerazor entity.name.type.cs",
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -519,6 +522,7 @@
             "scope": [
                 "meta.interpolation",
                 "meta.template.expression.js",
+                "meta.template.expression.ts",
                 "variable.parameter.label.asm",
                 "support.class.math.block",
                 "entity.name.type.namespace punctuation.separator.inheritance",
@@ -703,6 +707,7 @@
                 "variable.source.cmake",
                 "variable.language.nawk",
                 "variable.language.awk",
+                "source.php support.function.construct",
             ],
             "settings": {
                 "foreground": "#e2ccff",

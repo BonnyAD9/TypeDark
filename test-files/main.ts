@@ -95,3 +95,19 @@ function svgPreviewHTML(file: vscode.TextDocument) {
 function HTML(content: string, head?: string) {
     return `...`;
 }
+
+export function useEvents(filters: any) {
+    let filtersStr = '';
+    if (filters) {
+        if (filters.get('datum') === 'vse') {
+            filtersStr += 'date=all'
+        } else if (filters.get('datum') === 'probehle') {
+            filtersStr += 'date=past';
+        } else {
+            filtersStr += 'date=upcoming';
+        }
+        if (filters.has('misto')) {
+            filtersStr += `&place=${filters.get('misto')}`;
+        }
+    }
+}
