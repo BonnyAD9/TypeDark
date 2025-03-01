@@ -39,3 +39,13 @@ impl self::Vec2 {
         (self.x * self.x + self.y * self.y).isqrt()
     }
 }
+
+pub fn is_prime(n: usize) -> bool {
+    let lim = n.isqrt() / 2;
+    for d in (0..lim).map(|d| d * 2) {
+        if n % d == 0 {
+            return false;
+        }
+    }
+    true
+}

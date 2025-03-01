@@ -228,6 +228,7 @@
                 "source.prolog keyword.control",
                 "storage.type.function.arrow.ts",
                 "punctuation.separator.statement.background.shell",
+                "punctuation.math.operator",
             ],
             "settings": {
                 "foreground": "#e5dba0"
@@ -292,6 +293,7 @@
                 "source.go keyword",
                 "source.tsx keyword",
                 "source.haskell keyword",
+                "text.tex.latex keyword",
                 "source.makefile support.function",
                 "source.prolog keyword.other",
                 "source.rust keyword.control",
@@ -315,6 +317,7 @@
                 "keyword.type.go",
                 "keyword.language",
                 "source.rust variable.language",
+                "entity.name.function.macro.rules.rust",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -339,6 +342,7 @@
                 "string.regexp.quoted.single.python punctuation.definition.string.end.python",
                 "string.regexp",
                 "string.unquoted.heredoc",
+                "constant.character.math.tex",
             ],
             "settings": {
                 "foreground": "#e5a55b"
@@ -382,7 +386,7 @@
         {
             "name": "String escape characters",
             "scope": [
-                "string.quoted.double constant.character.escape"
+                "string.quoted.double constant.character.escape",
             ],
             "settings": {
                 "foreground": "#ff8800",
@@ -924,7 +928,6 @@
             "foreground": "#ffa632",
             "fontStyle": "italic"
         },
-        "keyword:rust": "#4c8dff",
         "tomlArrayKey": "#28C3CC",
     }
 }

@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+
+\title{Title}
+\author{Author}
+\date{Date}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{itemize}
+    \item \textit{regulární} gramatiky (typ 3) mají
+        $P \subseteq N \times \left(\left\{\lambda\right\} \cup T^*N\right)$.
+    \item \textit{bezkontextové} gramatiky (typ 2) mají
+        $P \subseteq N \times V^*$.
+    \item \textit{kontextové} gramatiky (typ 1) mají pravidla ve tvaru
+        $t_1At_2 \rightarrow t_1xt_2$, kde $t_1 \in T^*$, $t_2 \in T^*$,
+        $A \in N$ a $x \in V^*$.
+    \item \textit{neomezené} gramatiky (typ 0) mají
+        $P \subseteq V^*NV^* \times V^*$.
+\end{itemize}
+
+\begin{align*}
+    \Gamma &= (N, T, S, (P_1, =_l4), (P_2, t)) \\
+    N      &= \left\{ S, A, B, C \right\} \\
+    T      &= \left\{ a, b, c \right\} \\
+    P_1    &= \left\{
+        S \rightarrow AS, S \rightarrow BS, S \rightarrow CS
+    \right\} \\
+    P_2    &= \left\{
+        S \rightarrow \lambda,
+        A \rightarrow aA, A \rightarrow a,
+        B \rightarrow bB, B \rightarrow b
+        C \rightarrow cC, C \rightarrow c
+    \right\}
+\end{align*}
+
+\end{document}

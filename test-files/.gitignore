@@ -1,2 +1,8 @@
 target/
 Cargo.lock
+*.aux
+*.pdf
+*.fdb_latexmk
+*.fls
+*.log
+*.gz

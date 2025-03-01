@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.1.26
+- Fix latex keywords, operators and character constants.
+- Fix rust bool literals.
+
 ## v1.1.25
 - Fix rust macro_rules keyword.
 - Fix toml arrays.
