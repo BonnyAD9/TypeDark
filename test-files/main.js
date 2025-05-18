@@ -97,6 +97,9 @@ function DateInput(props) {
             }
         }
     };
+    
+  let i = "hi";
+  let c = `${hi}`;
 
     return <DatePicker
         calendarIcon={null}

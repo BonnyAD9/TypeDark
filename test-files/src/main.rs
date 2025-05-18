@@ -1,3 +1,4 @@
+#[derive(Default)]
 pub struct Vec2<T = usize> {
     pub x: T,
     pub y: T,
@@ -7,6 +8,13 @@ pub struct Vec2<T = usize> {
 pub trait Isqrt {
     /// Calculate the integer square root.
     fn isqrt(self) -> Self;
+}
+
+pub enum Side {
+    Top,
+    Left,
+    Right,
+    Bottom
 }
 
 macro_rules! impl_isqrt {
@@ -25,7 +33,7 @@ impl_isqrt!(
 
 
 fn main() {
-    println!("Hello World")
+    println!("Hello World \n")
 }
 
 impl<T> crate::Vec2<T> {
@@ -41,11 +49,17 @@ impl self::Vec2 {
 }
 
 pub fn is_prime(n: usize) -> bool {
+    const HELLO: usize = 5;
     let lim = n.isqrt() / 2;
-    for d in (0..lim).map(|d| d * 2) {
+    let a = &[""];
+    'outer: for d in (0..lim).map(|d| d * 2) {
         if n % d == 0 {
             return false;
         }
     }
     true
+}
+
+pub fn lifetimes<'a>() -> &'a str {
+    ""
 }
