@@ -24,7 +24,7 @@
         "element.active": null,
         "element.selected": "#115011",
         "element.disabled": null,
-        "drop_target.background": null,
+        "drop_target.background": "#ffff0002",
         "ghost_element.background": null,
         "ghost_element.hover": "#ffff0005",
         "ghost_element.active": null,
@@ -160,8 +160,8 @@
         "unreachable.background": null,
         "unreachable.border": null,
         "warning": null,
-        "warning.background": null,
-        "warning.border": null,
+        "warning.background": "#a50",
+        "warning.border": "#a50",
         "players": [
           {
             "cursor": "#ffffff",
