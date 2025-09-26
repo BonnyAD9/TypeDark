@@ -101,6 +101,10 @@ class SomeClass {
     public function __construct() {
         echo "lol";
     }
+    
+    public function lol() {
+        echo $this->lol;
+    }
 }
 
 $lol = new SomeClass();

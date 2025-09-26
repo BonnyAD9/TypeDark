@@ -1,0 +1,44 @@
+--- test-files/main.c	2025-05-18 16:54:08.692851444 +0200
++++ test-files/main.cpp	2025-05-18 17:59:06.150491419 +0200
+@@ -1,23 +1,29 @@
+-#include <stdio.h>
++#include <iostream>
+ 
+-#define HELLO(sd) printf(#sd)
++typedef struct Str Str;
+ 
+ int main() {
+-    const int i = 0;
+-    int s[] = {  };
+-label:
+-    char * hmm = "hello";
+-    HELLO(5);
++    struct Str s = {};
++    constexpr int con = 0;
++    unsigned int i = 0;
++    bool hi = true;
+ }
+ 
+-// https://some.link.com
++struct Str {
++    size_t st = 5;
++    Str() = default;
++};
++
++class Hello {
+ 
+-typedef Hi Hi;
++};
+ 
+-enum Hi {
+-    HMM
++template<typename T>
++concept Hashable = requires(T a)
++{
++    { std::hash<T>{}(a) } -> std::convertible_to<std::size_t>;
+ };
+ 
+-struct Hello {
++enum class hello {
+ 
+ };

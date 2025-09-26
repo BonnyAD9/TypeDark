@@ -192,3 +192,12 @@ fi
 if type fzf &> /dev/null; then
     source <(fzf --zsh)
 fi
+
+function test_case() {
+    case $1 in
+        (test) echo "not yay";;
+        (*) echo "yay";;
+    esac
+}
+
+echo $(echo $(echo $(echo hi)))

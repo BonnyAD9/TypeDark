@@ -5,6 +5,9 @@ SOURCES=$(shell find src/ -name '*.c')
 HEADERS=$(shell find src/ -name '*.h')
 FILES=$(SOURCES) $(HEADERS)
 
+include hello
+error hello
+
 .PHONY: build
 build:
 	if [ ! -f target/$(BUILD_TYPE)/Makefile ]; then \

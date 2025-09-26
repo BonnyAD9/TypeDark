@@ -89,6 +89,8 @@ with pleasant colors.
 ## How to get it
 It is available on the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark).
 
+*test*
+
 ## Links
 - **Author:** [BonnyAD9](https://github.com/BonnyAD9)
 - **Marketplace:** [TypeDark](https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark)

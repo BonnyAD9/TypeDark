@@ -194,6 +194,9 @@
                 "variable.parameter",
                 "variable.other.makefile",
                 "meta.property-name.css",
+                "keyword.operator": {
+                    "color": "#f00",
+                },
                 "variable.other.positional",
                 "variable.other.metavariable.name",
                 "entity.name.function.io.brainfuck",
