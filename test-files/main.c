@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define HELLO(sd) printf(#sd)
+#define HI 6
 
 int main() {
     const int i = 0;

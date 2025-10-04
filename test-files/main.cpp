@@ -1,6 +1,7 @@
 #include <iostream>
 
 typedef struct Str Str;
+#define HI 5
 
 int main() {
     struct Str s = {};

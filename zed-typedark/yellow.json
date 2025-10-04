@@ -195,9 +195,9 @@
             "color": "#eee",
             "font_weight": 500
           },
-          "constant.builtin": {
-            "color": "#d072e5"
-          },
+          // "constant.builtin": { // breaks c++
+          //   "color": "#d072e5"
+          // },
           "constant.character.escape": {
               "color": "#ff8800"
           },
