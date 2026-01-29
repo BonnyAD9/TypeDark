@@ -1,3 +1,4 @@
+#include <climits>
 #include <iostream>
 
 typedef struct Str Str;
@@ -5,7 +6,7 @@ typedef struct Str Str;
 
 int main() {
     struct Str s = {};
-    constexpr int con = 0;
+    constexpr int con = INT_MAX;
     unsigned int i = 0;
     bool hi = true;
 }

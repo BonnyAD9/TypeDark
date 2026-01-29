@@ -24,7 +24,7 @@
         "element.active": null,
         "element.selected": "#115011",
         "element.disabled": null,
-        "drop_target.background": "#ffff0002",
+        "drop_target.background": "#ffff0010",
         "ghost_element.background": null,
         "ghost_element.hover": "#ffff0005",
         "ghost_element.active": null,
@@ -165,7 +165,7 @@
         "players": [
           {
             "cursor": "#ffffff",
-            "selection": "#11ee1111"
+            "selection": "#11ee1120"
           }
         ],
         "syntax": {
@@ -264,6 +264,10 @@
             "color": "#4c8dff",
             "font_style": "italic"
           },
+          "keyword.directive": {
+              "color": "#5890ef",
+              "font_style": "italic"
+          },
           "keyword.jsdoc": {
               "color": "#476eb2"
           },
@@ -346,7 +350,7 @@
             "font_style": "italic"
           },
           "tag.doctype": {
-              "color": "#b4b4b4",
+              "color": "#b4b4b4"
           },
           "text.literal": {
             "color": "#e5a55b",

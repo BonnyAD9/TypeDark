@@ -264,6 +264,10 @@
               "color": "#4c8dff",
               "font_style": "italic"
             },
+            "keyword.directive": {
+                "color": "#5890ef",
+                "font_style": "italic"
+            },
             "keyword.jsdoc": {
                 "color": "#476eb2"
             },
@@ -346,7 +350,7 @@
               "font_style": "italic"
             },
             "tag.doctype": {
-                "color": "#b4b4b4",
+                "color": "#b4b4b4"
             },
             "text.literal": {
               "color": "#e5a55b",
