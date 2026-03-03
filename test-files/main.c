@@ -6,6 +6,7 @@
 int main() {
     const int i = 0;
     int s[] = {  };
+    size_t k;
 label:
     char * hmm = "hel\nlo";
     HELLO(5);
