@@ -1,0 +1,132 @@
+diff a/zed-typedark/yellow.json b/zed-typedark/yellow.json	(rejected hunks)
+@@ -188,23 +188,20 @@
+               "color": "#666",
+               "font_style": "italic"
+           },
+           "concept": {
+             "color": "#b0cc28"
+           },
+           "constant": {
+             "color": "#eee",
+             "font_weight": 500
+           },
+-          // "constant.builtin": { // breaks c++
+-          //   "color": "#d072e5"
+-          // },
+           "constant.character.escape": {
+               "color": "#ff8800"
+           },
+           "constant.macro": {
+             "font_style": "italic",
+             "color": "#eeddee"
+           },
+           "constructor": {
+             "color": "#28c3cc"
+           },
+@@ -216,23 +213,20 @@
+           },
+           "embedded": {
+             "color": "#e0e55b"
+           },
+           "emphasis": {
+             "font_style": "italic"
+           },
+           "emphasis.strong": {
+             "font_weight": 500
+           },
+-          "enum": {
+-              "color": "#71ce6d"
+-          },
+           "exception": {
+             "color": "#4c8dff",
+             "font_style": "italic"
+           },
+           "field": {
+             "color": "#e4ffe7"
+           },
+           "function": {
+             "font_style": "italic"
+           },
+@@ -332,21 +326,21 @@
+           "string": {
+             "color": "#e5a55b"
+           },
+           "string.doc": {
+               "color": "#666",
+               "font_style": "italic"
+           },
+           "string.escape": {
+             "color": "#ff8800"
+           },
+-          "string.special": { // color in css
++          "string.special": {
+               "color": "#d072e5"
+           },
+           "string.special.path": {
+               "color": "#e5dba0"
+           },
+           "tag": {
+             "color": "#4c8dff",
+             "font_style": "italic"
+           },
+           "tag.doctype": {
+@@ -364,49 +358,58 @@
+           },
+           "type.builtin": {
+             "color": "#ed478f"
+           },
+           "type.class": {
+             "color": "#28c3cc"
+           },
+           "type.class.inheritance": {
+             "color": "#b0cc28"
+           },
++          "type.enum": {
++              "color": "#71ce6d"
++          },
++          "type.enum.member": {
++              "color": "#ccc88e"
++          },
+           "type.interface": {
+             "color": "#b0cc28"
+           },
+           "type.jsdoc": {
+               "color": "#4c997e"
+           },
+           "type.primitive": {
+             "color": "#ed478f"
+           },
+           "type.unit": {
+               "color": "#c32de5"
+           },
+           "variable": {
+             "color": "#eee"
+           },
+           "variable.builtin": {
+             "color": "#4c8dff",
+             "font_style": "italic"
+           },
++          "variable.global": {
++              "color": "#ccdeff"
++          },
+           "variable.member": {
+             "color": "#e4ffe7"
+           },
+           "variable.parameter": {
+             "color": "#ffa632",
+             "font_style": "italic"
+           },
+           "variable.special": {
+             "color": "#4c8dff",
+             "font_style": "italic"
+           },
+           "variant": {
+-            "color": "#f00"
++            "color": "#ccc88e"
+           }
+         }
+       },
+       "$schema": "https://zed.dev/schema/themes/v0.2.0.json"
+     }
+   ]
+ }

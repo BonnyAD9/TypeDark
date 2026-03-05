@@ -1,0 +1,27 @@
+      [
+          {
+              "token_type": "parameter",
+              "token_modifiers": [],
+              "style": ["variable.parameter"]
+          },
+          {
+              "token_type": "builtinType",
+              "token_modifiers": [],
+              "style": ["type.builtin"],
+          },
+          {
+              "token_type": "concept",
+              "token_modifiers": [],
+              "style": ["type.interface"]
+          },
+          {
+              "token_type": "variable",
+              "token_modifiers": ["globalScope"],
+              "style": ["variable.global"]
+          },
+          {
+              "token_type": "keywordOperator",
+              "token_modifiers": ["globalScope"],
+              "style": ["variable.global"]
+          },
+      ]
