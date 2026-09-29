@@ -57,6 +57,7 @@ pub fn is_prime(n: usize) -> bool {
             return false;
         }
     }
+    println!("{HELLO}");
     true
 }
 

@@ -6,10 +6,9 @@
     {
       "name": "TypeDark Yellow",
       "appearance": "dark",
-      "accents": ["#f00", "#0f0", "#00f"],
       "style": {
+        "accents": ["#cccc8e", "#8ecccc", "#cc8ecc", "#cc8e8e", "#8ecc8e", "#8e8ecc"],
         "background.appearance": "blurred",
-        "accents": [],
         "border": "#555555",
         "border.variant": "#555555",
         "border.focused": "#dddd00",
@@ -19,6 +18,18 @@
         "elevated_surface.background": "#181818",
         "surface.background": "#181818",
         "background": "#22222288",
+        "conflict": null,
+        "conflict.background": "#ff0000",
+        "conflict.border": null,
+        "created": null,
+        "created.background": null,
+        "created.border": null,
+        "deleted": null,
+        "deleted.background": null,
+        "deleted.border": null,
+        "error": null,
+        "error.background": null,
+        "error.border": null,
         "element.background": "#555500",
         "element.hover": "#113e11",
         "element.active": null,
@@ -86,28 +97,28 @@
         "terminal.dim_foreground": null,
         "terminal.ansi.black": "#000",
         "terminal.ansi.bright_black": "#777",
-        "terminal.ansi.dim_black": null,
+        "terminal.ansi.dim_black": "#000",
         "terminal.ansi.red": "#833",
         "terminal.ansi.bright_red": "#f55",
-        "terminal.ansi.dim_red": null,
+        "terminal.ansi.dim_red": "#833",
         "terminal.ansi.green": "#383",
         "terminal.ansi.bright_green": "#23d16a",
-        "terminal.ansi.dim_green": null,
+        "terminal.ansi.dim_green": "#383",
         "terminal.ansi.yellow": "#883",
         "terminal.ansi.bright_yellow": "#ff5",
-        "terminal.ansi.dim_yellow": null,
+        "terminal.ansi.dim_yellow": "#883",
         "terminal.ansi.blue": "#56e",
         "terminal.ansi.bright_blue": "#308eea",
-        "terminal.ansi.dim_blue": null,
+        "terminal.ansi.dim_blue": "#56e",
         "terminal.ansi.magenta": "#848",
         "terminal.ansi.bright_magenta": "#f7f",
-        "terminal.ansi.dim_magenta": null,
+        "terminal.ansi.dim_magenta": "#848",
         "terminal.ansi.cyan": "#388",
         "terminal.ansi.bright_cyan": "#6cc",
-        "terminal.ansi.dim_cyan": null,
+        "terminal.ansi.dim_cyan": "#388",
         "terminal.ansi.white": "#ccc",
         "terminal.ansi.bright_white": "#fff",
-        "terminal.ansi.dim_white": null,
+        "terminal.ansi.dim_white": "#ccc",
         "link_text.hover": null,
         "version_control.added": null,
         "version_control.deleted": null,
@@ -120,18 +131,6 @@
         "version_control.conflict.ours_marker_background": null,
         "version_control.conflict.theirs_marker_background": null,
         "version_control.conflict.divider_background": null,
-        "conflict": null,
-        "conflict.background": null,
-        "conflict.border": null,
-        "created": null,
-        "created.background": null,
-        "created.border": null,
-        "deleted": null,
-        "deleted.background": null,
-        "deleted.border": null,
-        "error": null,
-        "error.background": null,
-        "error.border": null,
         "hidden": "#555555",
         "hidden.background": null,
         "hidden.border": null,
@@ -193,8 +192,11 @@
           },
           "constant": {
             "color": "#eee",
-            "font_weight": 500
+            "font_weight": 600
           },
+          // "constant.builtin": { // breaks c++
+          //   "color": "#d072e5"
+          // },
           "constant.character.escape": {
               "color": "#ff8800"
           },
@@ -218,7 +220,7 @@
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "font_weight": 500
+            "font_weight": 600
           },
           "exception": {
             "color": "#4c8dff",
@@ -333,7 +335,7 @@
           "string.escape": {
             "color": "#ff8800"
           },
-          "string.special": {
+          "string.special": { // color in css
               "color": "#d072e5"
           },
           "string.special.path": {

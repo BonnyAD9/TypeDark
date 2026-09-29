@@ -7,7 +7,7 @@
           {
               "token_type": "builtinType",
               "token_modifiers": [],
-              "style": ["type.builtin"],
+              "style": ["type.builtin"]
           },
           {
               "token_type": "concept",

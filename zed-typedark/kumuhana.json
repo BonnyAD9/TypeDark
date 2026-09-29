@@ -6,10 +6,9 @@
     {
       "name": "TypeDark Kumuhana",
       "appearance": "dark",
-      "accents": ["#f00", "#0f0", "#00f"],
       "style": {
+        "accents": ["#cccc8e", "#8ecccc", "#cc8ecc", "#cc8e8e", "#8ecc8e", "#8e8ecc"],
         "background.appearance": "blurred",
-        "accents": [],
         "border": "#555555",
         "border.variant": "#555555",
         "border.focused": "#3acbaf",
@@ -193,7 +192,7 @@
             },
             "constant": {
               "color": "#eee",
-              "font_weight": 500
+              "font_weight": 600
             },
             // "constant.builtin": { // breaks c++
             //   "color": "#d072e5"
@@ -221,7 +220,7 @@
               "font_style": "italic"
             },
             "emphasis.strong": {
-              "font_weight": 500
+              "font_weight": 600
             },
             "enum": {
                 "color": "#71ce6d"
